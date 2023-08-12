@@ -692,7 +692,7 @@ img {
 @media (max-width: 767px) {
   .prev-btn {
     left: 12px;
-    top: 230px;
+    top: 220px;
     height: 35px;
     width: 30px;
   }
