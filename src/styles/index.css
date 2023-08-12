@@ -579,6 +579,7 @@ img {
 .testimonial-section {
   height: 70vh;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .review-header {
@@ -634,7 +635,6 @@ img {
 
 .slick-list {
   position: relative;
-  top: 120px;
 }
 .slick-list h3 {
   text-align: center;
@@ -1225,7 +1225,6 @@ img {
   align-items: center;
   line-height: 0.2;
 }
-
 .email {
   font-size: 30px;
   position: relative;

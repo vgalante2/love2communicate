@@ -32,6 +32,8 @@
     padding: 0;
     margin: 0;
 
+  
+
   p {
     font-size: 1.5rem;
   }
@@ -52,6 +54,10 @@ display: flex;
 flex-direction: column;
 align-items: center;
 line-height: 0.2;
+
+@media(max-width:767px) {
+
+}
 
 }
 

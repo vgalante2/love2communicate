@@ -5,7 +5,7 @@
     height: 70vh;
   
    align-items: center;
-  
+  margin-bottom: 40px;
 }
 
 .review-header {
@@ -35,7 +35,7 @@
 
     @media( max-width: 767px) {
       width: 100%;
-
+     
     }
    
 }
@@ -65,7 +65,7 @@
 
 .slick-list {
    position: relative;
-   top: 120px;
+   
 
    h3{
      text-align: center;
