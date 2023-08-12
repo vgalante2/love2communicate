@@ -227,10 +227,10 @@ p {
 }
 
 .mini-bubble {
-  width: 70px;
+  width: 60px;
   display: flex;
   position: relative;
-  left: 530px;
+  left: 130px;
   top: 110px;
   animation: pulse 2s infinite;
 }
