@@ -28,7 +28,7 @@
 
 .review-slider {
    
-    height: 30vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,6 +56,8 @@
         line-height: 1.5;
          text-align: center;
          padding: 3.5rem;
+         position: relative;
+         bottom: 35px;
          
         }
     }
@@ -80,7 +82,7 @@
    @media( max-width: 767px) {
      height: 50px;
      width: auto;
-     left: 90px;
+     left: 70px;
      top: 20px;
 }
    }
