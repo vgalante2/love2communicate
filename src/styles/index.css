@@ -604,10 +604,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 200px;
 }
 @media (max-width: 767px) {
   .review-slider {
     width: 100%;
+    padding: 0;
   }
 }
 
@@ -643,7 +645,7 @@ img {
 }
 .slick-list img {
   position: relative;
-  left: 587px;
+  left: 375px;
   width: 400px;
   padding-bottom: 10px;
 }
@@ -659,7 +661,7 @@ img {
 .next-btn {
   float: right;
   position: relative;
-  bottom: 60px;
+  bottom: 170px;
   right: 60px;
   font-size: 1rem;
   background-color: white;
@@ -672,7 +674,7 @@ img {
     right: 8px;
     bottom: 135px;
     height: 35px;
-    width: 30px;
+    width: 33px;
   }
 }
 

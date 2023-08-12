@@ -32,9 +32,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 200px;
 
     @media( max-width: 767px) {
       width: 100%;
+      padding: 0;
      
     }
    
@@ -45,6 +47,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
    
     p {
         padding: 10px;
@@ -75,7 +78,7 @@
 
    img {
    position: relative;
-   left: 587px;
+   left: 375px;
    width: 400px;
    padding-bottom: 10px;
 
@@ -91,7 +94,7 @@
 .next-btn {
     float: right;
     position: relative;
-    bottom: 60px;
+    bottom: 170px;
     right: 60px;
    font-size: 1rem;
    background-color: white;
@@ -103,7 +106,7 @@
     right: 8px;
     bottom: 135px;
     height: 35px;
-    width: 30px;
+    width: 33px;
 }
 }
 
