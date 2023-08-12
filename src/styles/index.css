@@ -665,7 +665,6 @@ img {
   right: 60px;
   font-size: 1rem;
   background-color: white;
-  border: 2px #ff5555 solid;
   padding: 5px;
   border-radius: 10px;
 }
@@ -685,7 +684,6 @@ img {
   z-index: 1;
   font-size: 1rem;
   background-color: white;
-  border: 2px #ff5555 solid;
   padding: 5px;
   border-radius: 10px;
 }
