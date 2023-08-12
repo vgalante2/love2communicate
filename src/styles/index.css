@@ -618,6 +618,7 @@ img {
 @media (max-width: 767px) {
   .review p {
     font-size: 0.7rem;
+    line-height: 1.5;
     text-align: center;
     padding: 3.5rem;
   }
@@ -642,7 +643,7 @@ img {
   .slick-list img {
     height: 50px;
     width: auto;
-    left: 110px;
+    left: 90px;
     top: 20px;
   }
 }
