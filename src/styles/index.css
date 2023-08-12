@@ -287,6 +287,11 @@ p {
   background-color: #0B3E6C;
   padding: 30px;
 }
+@media (max-width: 767px) {
+  .service-section {
+    padding: 1px;
+  }
+}
 
 .service-container {
   display: flex;
@@ -624,7 +629,7 @@ img {
     text-align: center;
     padding: 3.5rem;
     position: relative;
-    bottom: 35px;
+    bottom: 25px;
   }
 }
 
@@ -665,7 +670,7 @@ img {
 @media (max-width: 767px) {
   .next-btn {
     right: 8px;
-    bottom: 50px;
+    bottom: 135px;
     height: 35px;
     width: 30px;
   }
