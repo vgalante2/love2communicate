@@ -23,6 +23,7 @@
  padding: 0;
  display: flex;
  flex-direction: column;
+ align-items: center;
 position: relative;
 right: 500px;
 bottom: 60px;
@@ -43,10 +44,13 @@ bottom: 60px;
       }
 
       p {
-        font-size: .6rem;
+        font-size: .55rem;
         color: rgb(255, 125, 125);
         line-height: 1.4;
         margin-top: 0px;
+       
+        
+        
       
       }
  }

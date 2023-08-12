@@ -11,7 +11,17 @@
 
     p {
         color: white;
+
+        @media(max-width:767px) {
+          font-size: 1rem;
     }
+  }
+
+  h1 {
+    @media(max-width:767px) {
+      font-size: 2rem;
+}
+  }
 }
 
 .contact-box {
@@ -28,6 +38,10 @@
 
   .contact-info {
     color: $red;
+
+    @media(max-width:767px) {
+      font-size: 1rem;
+}
     
   }
 }
@@ -53,6 +67,8 @@ line-height: 0.2;
     position: relative;
     top: 6px;
     color: $red;
+
+    
 }
 
 .copyright {
