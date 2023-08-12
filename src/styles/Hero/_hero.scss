@@ -31,7 +31,7 @@ bottom: 60px;
    @media(max-width: 767px) { 
     
       position: relative;
-      right: 10px;
+      right: -5px;
       z-index: 1;
     
       h1 {
@@ -43,7 +43,7 @@ bottom: 60px;
       }
 
       p {
-        font-size: .8rem;
+        font-size: .6rem;
         color: rgb(255, 125, 125);
         line-height: 1.4;
         margin-top: 0px;
