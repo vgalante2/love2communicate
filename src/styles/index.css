@@ -287,11 +287,6 @@ p {
   background-color: #0B3E6C;
   padding: 30px;
 }
-@media (max-width: 767px) {
-  .service-section {
-    padding: 1px;
-  }
-}
 
 .service-container {
   display: flex;
