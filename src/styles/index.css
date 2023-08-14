@@ -594,7 +594,7 @@ img {
 }
 @media (max-width: 767px) {
   .review-header {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: center;
   }
 }
@@ -678,7 +678,7 @@ img {
 @media (max-width: 767px) {
   .next-btn {
     right: 8px;
-    bottom: 135px;
+    bottom: 136px;
     height: 35px;
     width: 33px;
   }
@@ -1224,6 +1224,7 @@ img {
 @media (max-width: 767px) {
   .contact-box .contact-info {
     font-size: 1rem;
+    margin: 2px;
   }
 }
 
@@ -1233,11 +1234,18 @@ img {
   align-items: center;
   line-height: 0.2;
 }
+@media (max-width: 767px) {
+  .contact-us-box {
+    white-space: none;
+  }
+}
+
 .email {
   font-size: 30px;
   position: relative;
   top: 6px;
   color: #ff5555;
+  margin-top: 0;
 }
 
 .phone {
