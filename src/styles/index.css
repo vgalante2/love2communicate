@@ -578,8 +578,8 @@ img {
 
 .testimonial-section {
   height: 70vh;
-  align-items: center;
   margin-bottom: 40px;
+  z-index: 2;
 }
 
 .review-header {
@@ -604,7 +604,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 200px;
+  padding: 150px;
 }
 @media (max-width: 767px) {
   .review-slider {
@@ -618,6 +618,11 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@media (max-width: 767px) {
+  .review {
+    margin-top: 140px;
+  }
 }
 .review p {
   padding: 10px;
@@ -634,28 +639,30 @@ img {
     bottom: 25px;
   }
 }
+.review .stars-icon {
+  color: #ff5555;
+  font-size: 40px;
+  padding: 5px;
+}
+@media (max-width: 767px) {
+  .review .stars-icon {
+    font-size: 30px;
+  }
+}
 
 .slick-list {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.slick-list h4 {
+  text-align: center;
 }
 .slick-list h3 {
   text-align: center;
   font-size: 3.5rem;
   line-height: 0.1;
-}
-.slick-list img {
-  position: relative;
-  left: 375px;
-  width: 400px;
-  padding-bottom: 10px;
-}
-@media (max-width: 767px) {
-  .slick-list img {
-    height: 50px;
-    width: auto;
-    left: 70px;
-    top: 20px;
-  }
 }
 
 .next-btn {
