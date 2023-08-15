@@ -29,7 +29,7 @@ const Testimonials = () => {
         <Slider className="review-slider" ref={slider} {...settings}>
           <div className="review ">
             <h4> <StarIcon className="stars-icon" / > <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> </h4>
-            <h3>Name </h3>
+            <h3>Nancy </h3>
             <p> "From our very first session, the transformation in my child's speech and feeding skills was nothing short of remarkable. The therapist's gentle approach, paired with innovative techniques, made learning engaging and enjoyable." </p>
           </div>
           <div className="review">
