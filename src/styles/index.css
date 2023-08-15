@@ -505,9 +505,9 @@ img {
 @media screen and (max-width: 768px) {
   .text-container {
     padding: 0;
-    height: 540px;
+    height: 430px;
     top: -80px;
-    width: 600px;
+    width: 400px;
   }
 }
 .text-container h1 {
@@ -517,9 +517,9 @@ img {
 @media screen and (max-width: 768px) {
   .text-container h1 {
     padding: 0;
-    font-size: 10px;
+    font-size: 15px;
     position: relative;
-    top: 15px;
+    top: 20px;
   }
 }
 .text-container p {
@@ -530,7 +530,9 @@ img {
 @media screen and (max-width: 768px) {
   .text-container p {
     padding: 20px;
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
   }
 }
 .text-container .title {
@@ -544,8 +546,8 @@ img {
   .text-container .title {
     padding: 0;
     font-size: 10px;
-    left: 180px;
-    top: 80px;
+    left: 2px;
+    top: 95px;
   }
 }
 
