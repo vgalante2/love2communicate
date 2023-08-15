@@ -19,21 +19,18 @@ function SpeechPage() {
     <div  className="speech">
         <h1> Speech Therapy </h1>
     </div>
-    <div className="banner" style={bannerPic} > 
-    <div className="speech-content">
+    <div className="speech-hero" style={bannerPic} > 
+    <div className="speech-header">
     <h1>Speech & Language Evaluations & Therapy</h1>
     <p> With leading specialists</p>
     </div>
     </div>
-    <div className="speech-img-text-box">
-    <div className="speech-text-content">
+    <div className="speech-wrapper">
+    <div className="speech-content">
         <h1>How Does it Work?</h1>
         <p>A comprehensive evaluation is required to begin services. An evaluation generally takes about 2 hours and assesses receptive & expressive language, speech, feeding and oral motor skills.  Following the assessment you will receive a written report detailing our findings, recommendations and treatment plan, if treatment is recommended.</p>
     </div>
-    <img src={speechPic} alt="speech-pic" className="speech-img" />
-    </div>
-    <div className="speech-img-text-box-two">
-    <div className="speech-text-content-two">
+    <div className="speech-content-two">
         <h1>Feeding Assessments and Therapy</h1>
         <p>Did you know Speech Pathologists (SLPs) and Occupational Therapists (OTs) are your go-to professionals for feeding therapy? We have a team of SLPs and OTs that specialize in feeding. If you have a problem feeder or picky eater, give us a call to learn how we can help them learn to accept new foods.</p>
         <ul>
@@ -44,8 +41,6 @@ function SpeechPage() {
             <li>Beckman Oral Motor </li>
         </ul>
     </div>
-    <img src={speechPic2} alt="speech-2" className="speech-img-2" />
-    
     </div>
    
        

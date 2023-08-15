@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import feeding from "../assets/images/cooking.jpeg";
+import feedingBanner from "../assets/images/cooking.jpeg";
 import feedPic from "../assets/images/feeding-2.jpeg";
 import feedPic2 from "../assets/images/feed-pic.webp";
 
@@ -10,37 +10,28 @@ function FeedingPage() {
     window.scrollTo(0, 0);
   }, []);
 
-const bannerPic =  {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(${feeding})`,
-    backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        height: '80vh',
-        opacity: '1',
-        
-}
+  const bannerPic = {
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(${feedingBanner})`
+  }
 
   return (
     <section className="feeding-section">
     <div  className="feeding">
         <h1> Feeding Therapy </h1>
     </div>
-    <div style={bannerPic} > 
-    <div className="feeding-content">
+    <div className="feeding-hero" style={bannerPic} > 
+    <div className="feeding-header">
     <h1>Feeding Therapy That Works</h1>
     <p> With leading specialists</p>
     </div>
     </div>
-    <div className="img-text-box">
-    <div className="text-content">
+    <div className="feeding-wrapper">
+    <div className="feeding-content">
         <h1>In-home Feeding Therapy</h1>
         <p>We take a whole team approach and are always happy to collaborate with professionals (e.g., school, doctors, other therapists, etc) that play an important role in your child’s life. Services are provided in your child’s natural environment (e.g., home or school).</p>
     </div>
-    <img src={feedPic} alt="feeding-2" className="feed-img" />
-    </div>
-    <div className="img-text-box-two">
-    <img src={feedPic2} alt="feeding-2" className="feed-img-2" />
-    <div className="text-content-two">
+   
+    <div className="feeding-content-two">
         <h1>Our Approach</h1>
         <p>Feeding therapy takes place in your home or child’s school. We work with a variety of feeding, swallowing, sensory and oral-motor needs.
 
@@ -53,7 +44,6 @@ Initially a feeding and oral-motor evaluation will take place. We look at the wh
             <li>Beckman Oral Motor </li>
         </ul>
     </div>
-    
     </div>
    
        
