@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import feedingBanner from "../assets/images/cooking.jpeg";
-import feedPic from "../assets/images/feeding-2.jpeg";
-import feedPic2 from "../assets/images/feed-pic.webp";
+
 
 function FeedingPage() {
 

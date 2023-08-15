@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
-import myo from "../assets/images/myo-pic.jpeg";
 import myoPic from "../assets/images/myo-two.png";
-import myoPic2 from "../assets/images/myo-pic-2.jpeg";
+
 
 function MyoPage() {
 
