@@ -331,11 +331,20 @@ p {
 }
 
 .aboutus-section {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .aboutus-section {
+    height: 75vh;
+  }
 }
 
 .about-us {
@@ -376,7 +385,7 @@ img {
   text-align: center;
   padding: 15px;
   border-radius: 50px;
-  background-color: #0B3E6C;
+  background-color: rgb(233, 233, 233);
 }
 @media screen and (max-width: 768px) {
   .container {
@@ -389,7 +398,7 @@ img {
 .container h1 {
   padding: 5px;
   font-size: 2rem;
-  color: white;
+  color: #0B3E6C;
   width: 100%;
   position: relative;
   bottom: 20px;
@@ -589,8 +598,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
-  color: white;
+  font-size: 2rem;
+  margin: 0;
+  color: rgb(255, 255, 255);
   flex-direction: row;
   font-family: "Preahvihear", sans-serif;
   background-color: #0B3E6C;

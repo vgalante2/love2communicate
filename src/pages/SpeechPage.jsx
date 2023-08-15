@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import speechBanner from "../assets/images/speech-banner.jpeg";
-import speechPic from "../assets/images/speech-pic.jpeg";
-import speechPic2 from "../assets/images/speech-2.jpeg";
+
 
 function SpeechPage() {
 
