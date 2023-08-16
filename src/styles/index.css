@@ -590,7 +590,12 @@ img {
 
 .testimonial-section {
   margin: 0;
-  height: 50vh;
+  height: 45vh;
+}
+@media (max-width: 768px) {
+  .testimonial-section {
+    height: 55vh;
+  }
 }
 .testimonial-section h2 {
   padding: 2px;
