@@ -9,10 +9,12 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+   
     
     img {
         width: 100%;
         display: block;
+     
        
     }
    
@@ -34,8 +36,11 @@
   font-weight: 1000;
    text-align: left;
    width: 100%;
+   color: white;
    
 }
+
+
 
 
    @media(max-width: 767px) { 
@@ -55,7 +60,7 @@
 
       p {
         font-size: .55rem;
-        color: rgb(196, 79, 79);
+        color: $blue;
         line-height: 1.4;
         margin-top: 0px;
         text-align: center;
@@ -76,7 +81,7 @@ text-align: left;
 font-size: $small-text;
 font-family: 'Archivo Black', sans-serif;
 line-height: 40px;
-color: $red;
+color: $blue;
 width: 100%;
 
 @media( max-width: 767px) {
@@ -90,7 +95,7 @@ width: 100%;
   margin: 0;
   position: relative;
   top: 5px;
-  color: $blue;
+  color: $red;
 
   @media( max-width: 767px) {
    visibility: hidden;
