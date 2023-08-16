@@ -24,9 +24,8 @@
  display: flex;
  flex-direction: column;
  align-items: center;
-position: relative;
-right: 500px;
-bottom: 60px;
+ justify-content: flex-start;
+
 
 
    @media(max-width: 767px) { 
@@ -45,7 +44,7 @@ bottom: 60px;
 
       p {
         font-size: .55rem;
-        color: rgb(255, 125, 125);
+        color: rgb(196, 79, 79);
         line-height: 1.4;
         margin-top: 0px;
        
@@ -61,27 +60,21 @@ h1 {
     font-size: $big-text;
     font-family: 'Preahvihear', sans-serif;
     font-weight: 1000;
-    padding-left: 15px;
+   
 
 
 
    
 }
 
-p {
-    font-family: 'Archivo Black', sans-serif;
-    font-size: $small-text;
-    text-align: left;
-    font-weight: 100;
-    color: $red;
-    line-height: 40px;
-    
-}
+
 
 .subheading {
 text-align: left;
 font-size: $small-text;
-
+font-family: 'Archivo Black', sans-serif;
+line-height: 40px;
+color: $red;
 
 @media( max-width: 767px) {
       font-size: 1rem;
@@ -141,24 +134,24 @@ animation: pulse 2s infinite;
   }
 
   .container-style {
-    background-position: center;
+    background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    color: #0B3E6C;
+    color: $blue;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    left: 230px;
+
+
+  
   }
   
   /* For mobile devices */
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     .container-style {
-      
+      background-position: center, center, right;
       background-size:cover;
-      left: 0px;
       height: 60vh;
       z-index: 2;
      
