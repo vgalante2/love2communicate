@@ -27,6 +27,7 @@ const Navbar = () => {
     <div className="menu">
    
     <nav ref={navRef}  >
+    <a onClick={showNavbar} className="home-btn" href="/">Home</a>
   <a onClick={showNavbar} href="#services">Services</a>
   <a onClick={showNavbar} href="#about">About</a>
   <a onClick={showNavbar} href="#testimonials">Testimonials</a>
