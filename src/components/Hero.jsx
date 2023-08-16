@@ -10,7 +10,7 @@ function Hero() {
         <div className="container-style" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(${speechBanner})` }}>
           <div className="content-section">
           <img src={miniSpeech} alt="mini-speech" className="mini-bubble" />
-          <h1>Speech, Feeding, <br/> & Orofacial Myology Services</h1>
+          <h1>Speech, Feeding, <br/> & Orofacial Myology Services </h1>
           <p className="subheading">Unlocking Voices, Unleashing Potential: <RecordVoiceOverIcon  className="my-icon" /> <br/> Guiding Your Child from Struggling to Flourishing in Communication</p>
           </div>
         </div>
