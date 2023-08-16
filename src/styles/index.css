@@ -263,7 +263,7 @@ h1 {
   .container-style {
     background-position: 80% center;
     background-size: cover;
-    opacity: 0.7;
+    opacity: 1;
     height: 60vh;
     z-index: 2;
     /* Add any other adjustments you need for mobile */
