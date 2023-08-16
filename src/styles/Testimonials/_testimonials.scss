@@ -1,152 +1,103 @@
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
+
 .testimonial-section {
-    height: 70vh;
-  margin-bottom: 40px;
-  z-index: 2;
+  margin: 0;
+  height: 45vh;
+
+
+  h2 {
+    padding: 10px;
+
+    @media(max-width: 768px) {
+      font-size: 1rem;
+     }
+
+  }
+
  
 }
 
 .review-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    margin:0;
-   color: rgb(255, 255, 255);
-    flex-direction: row;
-    font-family: 'Preahvihear', sans-serif;
-    
-    background-color: $blue;
-
-
-    @media( max-width: 767px) {
-       font-size: 1.1rem;
-       text-align: center;
-    }
+  background-color:  $blue;
+ width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  
 }
 
-.review-slider {
-   
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 150px;
-    
-
-    @media( max-width: 767px) {
-      width: 100%;
-      padding: 0;
-     
-    }
-   
-
+/* Ensure flexbox layout for the review-wrapper */
+.review-wrapper {
+  display: flex;
+  align-items: center; /* Vertically center the buttons with the slider */
+  justify-content: center; /* Horizontally center everything */
+  gap: 5px; /* Space between child elements */
 }
-
-
 
 .review {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
- 
+  text-align: center;
 
-    @media( max-width: 767px) {
-        margin-top: 140px;
-    }
-
+  @media(max-width: 768px) {
+    padding: 2px;
    
+  }
+}
+
+
+
+/* Slider to take the maximum width available, minus the space for buttons */
+.review-slider {
+  flex-grow: 1;
+}
+
+/* If you wrap the slider in a div, ensure no styles interfere with its visibility */
+.slider-container {
+  height: 300px;
+  flex-grow: 1; /* Let it grow to take up available space */
+  overflow: hidden; /* Hide overflowed content, but ensure this doesn't clip anything unintentionally */
+  padding: 0px 1rem;
    
-    p {
-        padding: 10px;
-        font-size: 1rem;
-        color: rgb(123, 123, 123);
+  p {
+    color: rgb(98, 98, 98);
 
-        @media( max-width: 767px) {
-         font-size: 0.7rem;
-        line-height: 1.5;
-         text-align: center;
-         padding: 3.5rem;
-         position: relative;
-         bottom: 25px;
-         
-        }
-    }
-
-       .stars-icon {
-        
-        color: $red;
-        font-size: 40px;
-      padding: 5px;
-
-        @media(max-width: 767px) {
-            font-size: 30px;
-
-       }
+    @media(max-width: 768px) {
+    font-size: 0.62rem;
    
+  }
 }
 }
 
-.slick-list {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-  
- 
-   h4 {
-    text-align: center;
-    
-   
-   }
-
-   h3{
-     text-align: center;
-     font-size: $big-text;
-     line-height: 0.1;
-   }
-
-   
+/* Buttons will take only the space they need */
+.prev-btn, .next-btn {
+  flex-shrink: 0;
+  padding: 8px 5px; /* Sample padding for buttons */
+  color: $red; /* Button text/icon color */
+  border: none; /* Remove default borders */
+  cursor: pointer; /* Indicate clickability */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effects */
+  background-color: none;
 }
 
-.next-btn {
-    float: right;
-    position: relative;
-    bottom: 170px;
-    right: 60px;
-   font-size: 1rem;
-   background-color: white;
-
-   padding: 5px;
-   border-radius: 10px;
-
-   @media( max-width: 767px) {
-    right: 8px;
-    bottom: 132px;
-    height: 35px;
-    width: 33px;
-}
+.prev-btn:hover, .next-btn:hover {
+   color: $blue; /* Darken button on hover for feedback */
 }
 
-.prev-btn {
- position: relative;
- top: 270px;
- left: 60px;
- z-index: 1;
- font-size: 1rem;
- background-color: white;
-
- padding: 5px;
- border-radius: 10px;
-
- @media( max-width: 767px) {
-   left: 12px;
-   top: 220px;
-    height: 35px;
-    width: 30px;
+.prev-btn, .next-btn, .slider-container {
+  min-width: 0;
 }
+
+/* Styling for the testimonials */
+
+
+.review-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stars-icon {
+  color: $red; /* Color for star icons */
 }
 

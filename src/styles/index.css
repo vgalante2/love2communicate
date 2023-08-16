@@ -589,131 +589,92 @@ img {
 }
 
 .testimonial-section {
-  height: 70vh;
-  margin-bottom: 40px;
-  z-index: 2;
+  margin: 0;
+  height: 45vh;
+}
+.testimonial-section h2 {
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .testimonial-section h2 {
+    font-size: 1rem;
+  }
 }
 
 .review-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  margin: 0;
-  color: rgb(255, 255, 255);
-  flex-direction: row;
-  font-family: "Preahvihear", sans-serif;
   background-color: #0B3E6C;
-}
-@media (max-width: 767px) {
-  .review-header {
-    font-size: 1.1rem;
-    text-align: center;
-  }
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
-.review-slider {
-  height: 40vh;
+/* Ensure flexbox layout for the review-wrapper */
+.review-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 150px;
-}
-@media (max-width: 767px) {
-  .review-slider {
-    width: 100%;
-    padding: 0;
-  }
+  align-items: center; /* Vertically center the buttons with the slider */
+  justify-content: center; /* Horizontally center everything */
+  gap: 5px; /* Space between child elements */
 }
 
 .review {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .review {
-    margin-top: 140px;
-  }
-}
-.review p {
-  padding: 10px;
-  font-size: 1rem;
-  color: rgb(123, 123, 123);
-}
-@media (max-width: 767px) {
-  .review p {
-    font-size: 0.7rem;
-    line-height: 1.5;
-    text-align: center;
-    padding: 3.5rem;
-    position: relative;
-    bottom: 25px;
-  }
-}
-.review .stars-icon {
-  color: #ff5555;
-  font-size: 40px;
-  padding: 5px;
-}
-@media (max-width: 767px) {
-  .review .stars-icon {
-    font-size: 30px;
+    padding: 2px;
   }
 }
 
-.slick-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+/* Slider to take the maximum width available, minus the space for buttons */
+.review-slider {
+  flex-grow: 1;
 }
-.slick-list h4 {
+
+/* If you wrap the slider in a div, ensure no styles interfere with its visibility */
+.slider-container {
+  height: 300px;
+  flex-grow: 1; /* Let it grow to take up available space */
+  overflow: hidden; /* Hide overflowed content, but ensure this doesn't clip anything unintentionally */
+  padding: 0px 1rem;
+}
+.slider-container p {
+  color: rgb(98, 98, 98);
+}
+@media (max-width: 768px) {
+  .slider-container p {
+    font-size: 0.62rem;
+  }
+}
+
+/* Buttons will take only the space they need */
+.prev-btn, .next-btn {
+  flex-shrink: 0;
+  padding: 8px 5px; /* Sample padding for buttons */
+  color: #ff5555; /* Button text/icon color */
+  border: none; /* Remove default borders */
+  cursor: pointer; /* Indicate clickability */
+  border-radius: 4px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effects */
+  background-color: none;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  color: #0B3E6C; /* Darken button on hover for feedback */
+}
+
+.prev-btn, .next-btn, .slider-container {
+  min-width: 0;
+}
+
+/* Styling for the testimonials */
+.review-header {
   text-align: center;
-}
-.slick-list h3 {
-  text-align: center;
-  font-size: 3.5rem;
-  line-height: 0.1;
+  margin-bottom: 20px;
 }
 
-.next-btn {
-  float: right;
-  position: relative;
-  bottom: 170px;
-  right: 60px;
-  font-size: 1rem;
-  background-color: white;
-  padding: 5px;
-  border-radius: 10px;
-}
-@media (max-width: 767px) {
-  .next-btn {
-    right: 8px;
-    bottom: 132px;
-    height: 35px;
-    width: 33px;
-  }
-}
-
-.prev-btn {
-  position: relative;
-  top: 270px;
-  left: 60px;
-  z-index: 1;
-  font-size: 1rem;
-  background-color: white;
-  padding: 5px;
-  border-radius: 10px;
-}
-@media (max-width: 767px) {
-  .prev-btn {
-    left: 12px;
-    top: 220px;
-    height: 35px;
-    width: 30px;
-  }
+.stars-icon {
+  color: #ff5555; /* Color for star icons */
 }
 
 .feeding-section {
@@ -789,7 +750,7 @@ img {
   display: flex;
   flex-direction: column; /* Horizontal layout */
   align-items: center; /* Center items vertically */
-  height: 100vh;
+  min-height: 100vh;
   justify-content: space-between;
   padding: 50px;
 }
@@ -886,10 +847,6 @@ img {
   }
 }
 
-.speech-section {
-  height: 100%;
-}
-
 .speech {
   background-color: #0B3E6C;
 }
@@ -959,7 +916,6 @@ img {
   display: flex;
   flex-direction: column; /* Horizontal layout */
   align-items: center; /* Center items vertically */
-  height: 100vh;
   justify-content: space-between;
   padding: 50px;
 }
@@ -1129,7 +1085,7 @@ img {
   display: flex;
   flex-direction: column; /* Horizontal layout */
   align-items: center; /* Center items vertically */
-  height: 100vh;
+  min-height: 100vh;
   justify-content: space-between;
   padding: 50px;
 }
