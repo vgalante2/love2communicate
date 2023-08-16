@@ -584,7 +584,7 @@ img {
 }
 @media (max-width: 768px) {
   .testimonial-section {
-    height: 47vh;
+    height: 40vh;
   }
 }
 .testimonial-section h2 {
@@ -592,7 +592,7 @@ img {
 }
 @media (max-width: 768px) {
   .testimonial-section h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
