@@ -150,8 +150,9 @@ animation: pulse 2s infinite;
   /* For mobile devices */
   @media (max-width: 768px) {
     .container-style {
-      background-position: center, center, right;
+      background-position: calc(100% - 20%) center;
       background-size:cover;
+      opacity: 0.7;
       height: 60vh;
       z-index: 2;
      

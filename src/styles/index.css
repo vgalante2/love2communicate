@@ -261,8 +261,9 @@ h1 {
 /* For mobile devices */
 @media (max-width: 768px) {
   .container-style {
-    background-position: center, center, right;
+    background-position: 80% center;
     background-size: cover;
+    opacity: 0.7;
     height: 60vh;
     z-index: 2;
     /* Add any other adjustments you need for mobile */
@@ -583,7 +584,7 @@ img {
 }
 @media (max-width: 768px) {
   .testimonial-section {
-    height: 55vh;
+    height: 47vh;
   }
 }
 .testimonial-section h2 {
