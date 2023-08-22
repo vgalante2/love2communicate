@@ -694,7 +694,7 @@ img {
   cursor: pointer; /* Indicate clickability */
   border-radius: 4px; /* Rounded corners */
   transition: background-color 0.3s; /* Smooth transition for hover effects */
-  background-color: none;
+  background-color: transparent !important;
 }
 @media (max-width: 768px) {
   .prev-btn, .next-btn {
