@@ -479,6 +479,12 @@ img {
   flex-direction: column;
   padding-top: 77px;
 }
+@media screen and (max-width: 768px) {
+  .about-container {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
 
 h1 {
   font-size: 3.5rem;

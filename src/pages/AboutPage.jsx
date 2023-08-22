@@ -5,8 +5,8 @@ import speechPicBG from '../assets/images/speech-pic.jpeg';
 function AboutPage() {
 
   const bgPic = {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)), url(${speechPicBG})`
-  }
+    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)), url(${speechPicBG})`
+}
 
 
   return (

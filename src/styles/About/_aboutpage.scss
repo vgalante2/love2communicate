@@ -12,6 +12,15 @@
     flex-direction: column;
    padding-top: 77px;
   
+   
+
+   @media screen and (max-width: 768px) {
+    background-size: contain;
+    background-repeat: no-repeat;
+   }
+
+    
+
  
 }
 
