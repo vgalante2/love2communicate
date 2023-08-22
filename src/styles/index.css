@@ -624,6 +624,11 @@ img {
   justify-content: center; /* Horizontally center everything */
   gap: 5px; /* Space between child elements */
 }
+@media (max-width: 768px) {
+  .review-wrapper {
+    padding: 1rem 1.5rem;
+  }
+}
 
 .review {
   text-align: center;
@@ -1197,6 +1202,11 @@ img {
   height: 50vh;
   color: white;
   background-color: #0B3E6C;
+}
+@media (max-width: 767px) {
+  .contact-section {
+    height: 30vh;
+  }
 }
 .contact-section p {
   color: white;

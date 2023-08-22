@@ -9,6 +9,11 @@
     color: white;
     background-color: $blue;
 
+
+    @media(max-width:767px) {
+      height: 30vh;
+}
+
     p {
         color: white;
 

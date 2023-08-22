@@ -15,9 +15,9 @@ function Footer() {
     </div>
     </div>
     </div>
-    <p className="copyright" >&copy; 2023 Love2Communicate. All rights reserved.</p>
+    <p className="copyright" >&copy; 2023 Love2Communicate LLC</p>
     </section>
-   
+    
   )
 }
 

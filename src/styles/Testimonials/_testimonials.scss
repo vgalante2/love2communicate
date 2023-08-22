@@ -38,7 +38,14 @@
   align-items: center; /* Vertically center the buttons with the slider */
   justify-content: center; /* Horizontally center everything */
   gap: 5px; /* Space between child elements */
+
+  @media(max-width: 768px) {
+    padding: 1rem 1.5rem;
+   
+  }
+
 }
+
 
 .review {
   text-align: center;
