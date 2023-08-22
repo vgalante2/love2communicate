@@ -50,6 +50,7 @@
 .review {
   text-align: center;
 
+
   @media(max-width: 768px) {
     padding: 2px;
    
@@ -68,7 +69,7 @@
   height: 300px;
   flex-grow: 1; /* Let it grow to take up available space */
   overflow: hidden; /* Hide overflowed content, but ensure this doesn't clip anything unintentionally */
-  padding: 0px 1rem;
+  padding: 0px 1.2rem;
    
   p {
     color: rgb(98, 98, 98);

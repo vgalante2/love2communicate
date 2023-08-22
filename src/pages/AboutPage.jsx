@@ -1,10 +1,17 @@
 import React from 'react';
 import avatar from '../assets/images/avatar.png';
+import speechPicBG from '../assets/images/speech-pic.jpeg';
 
 function AboutPage() {
+
+  const bgPic = {
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.0)), url(${speechPicBG})`
+  }
+
+
   return (
    <section>
-   <div  className="about-container"> 
+   <div  className="about-container" style={bgPic}> 
     <div id="about" className="image-area">
         <img src={avatar} alt="avatar"  />
         <div className="text-container">

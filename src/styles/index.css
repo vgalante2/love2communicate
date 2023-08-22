@@ -342,11 +342,13 @@ nav img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  gap: 30px;
   opacity: 1;
 }
 @media (max-width: 768px) {
   .aboutus-section {
     height: 75vh;
+    gap: 5px;
   }
 }
 
@@ -411,7 +413,7 @@ img {
     padding: 0;
     font-size: 20px;
     position: relative;
-    top: 100px;
+    top: 110px;
   }
 }
 .container p {
@@ -514,6 +516,7 @@ img {
   text-align: center;
   padding: 15px;
   border-radius: 50px;
+  background-color: white;
 }
 @media screen and (max-width: 768px) {
   .text-container {
@@ -649,7 +652,7 @@ img {
   height: 300px;
   flex-grow: 1; /* Let it grow to take up available space */
   overflow: hidden; /* Hide overflowed content, but ensure this doesn't clip anything unintentionally */
-  padding: 0px 1rem;
+  padding: 0px 1.2rem;
 }
 .slider-container p {
   color: rgb(98, 98, 98);

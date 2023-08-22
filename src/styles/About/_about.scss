@@ -9,11 +9,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-   
+    gap: 30px;
     opacity: 1;
     
     @media(max-width:768px) {
     height: 75vh;
+    gap: 5px;
     }
 
 }
@@ -88,7 +89,7 @@ img {
             padding: 0;
            font-size: 20px;
            position: relative;
-           top: 100px;
+           top: 110px;
            
           }
     }
