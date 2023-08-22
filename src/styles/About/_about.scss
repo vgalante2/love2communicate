@@ -1,7 +1,7 @@
 
 
 .aboutus-section {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,11 +124,7 @@ img {
 
 
 
-.about-us {
-   position: relative;
-   top: 30px;
-   
-}
+
 
 
 .btn-about {
@@ -145,9 +141,10 @@ img {
     transition: transform 0.3s ease-in-out;
    
 
-    @media screen and (max-width: 768px) {
-        top: -83px;
+    @media (max-width: 768px) {
+        top: -120px;
       margin-left: 780px;
+      font-size: 10px;
       }
 
     &:hover {

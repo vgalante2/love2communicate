@@ -8,7 +8,7 @@
 
 
   @media(max-width: 768px) {
-   height: 40vh;
+   height: 55vh;
    }
 
   h2 {
@@ -40,7 +40,7 @@
   gap: 5px; /* Space between child elements */
 
   @media(max-width: 768px) {
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1rem;
    
   }
 
@@ -49,10 +49,12 @@
 
 .review {
   text-align: center;
-
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
   @media(max-width: 768px) {
-    padding: 2px;
+    padding: 1px;
    
   }
 }
@@ -91,6 +93,19 @@
   border-radius: 4px; /* Rounded corners */
   transition: background-color 0.3s; /* Smooth transition for hover effects */
   background-color: none;
+
+  @media(max-width: 768px) {
+    background-color: transparent !important;
+
+}
+}
+
+.btn-1 {
+  font-size: 15px;
+}
+
+.btn-2 {
+  font-size: 15px;
 }
 
 .prev-btn:hover, .next-btn:hover {

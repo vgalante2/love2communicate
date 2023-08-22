@@ -25,7 +25,7 @@ const Testimonials = () => {
         <h2 id="testimonials" className="review-header"> Hear What Our Parents Have to Say </h2>
       
       <div className="review-wrapper">
-        <button className="prev-btn" onClick={() => slider?.current?.slickPrev()}> <ArrowBackIosIcon /> </button>
+        <button className="prev-btn" onClick={() => slider?.current?.slickPrev()}> <ArrowBackIosIcon className="btn-1" /> </button>
         <div className="slider-container"> 
         <Slider className="review-slider" ref={slider} {...settings}>
           <div className="review review-1" >
@@ -51,7 +51,7 @@ const Testimonials = () => {
         </Slider>
         </div>
         <br/>
-        <button className="next-btn" onClick={() => slider?.current?.slickNext()}> <ArrowForwardIosIcon /> </button>
+        <button className="next-btn" onClick={() => slider?.current?.slickNext()}> <ArrowForwardIosIcon className="btn-2" /> </button>
         </div>
 
       </div>
