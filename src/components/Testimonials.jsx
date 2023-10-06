@@ -46,7 +46,7 @@ const Testimonials = () => {
           <div className="review review-4">
           <h4> <StarIcon className="stars-icon" / > <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> </h4>
             <h3>Tracy</h3>
-            <p>"Before we met Galina, our days were filled with frustration and silent tears – the world of words seemed so distant for my child, and every mealtime felt like a battle. From our first session, however, I sensed hope. The individualized care and expertise in speech, feeding, and MYO therapy that Galina offered were unparalleled. Today, hearing my child express their thoughts and share stories, and watching them enjoy meals with a newfound enthusiasm, fills my heart with gratitude."</p>
+            <p>"Before we met Galina, our days were filled with frustration and no progression – the world of words seemed so distant for my child, and every mealtime felt like a battle. From our first session, however, I sensed hope. The individualized care and expertise in speech, feeding, and MYO therapy that Galina offered were unparalleled. Today, hearing my child express their thoughts and share stories, and watching them enjoy meals with a newfound enthusiasm, fills my heart with gratitude."</p>
           </div>
         </Slider>
         </div>
