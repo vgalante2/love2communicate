@@ -433,6 +433,7 @@ img {
   text-align: center;
   position: relative;
   top: 20px;
+  font-family: "Preahvihear", sans-serif;
 }
 @media screen and (max-width: 768px) {
   .container .title {
