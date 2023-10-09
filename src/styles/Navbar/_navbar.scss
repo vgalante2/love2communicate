@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around; /* This will put the logo and menu at opposite ends */
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(235, 235, 235);
+
+
+
+  }
+  
+  .logo {
+    height: 11rem;
+    width: auto;
+
+    @media(max-width: 1024px) {
+        height: 8rem;
+      
+      }
+}
+  
+  .logo-section {
+    display: flex;
+
+
+  }
+  
+  .menu ul {
+    display: flex; /* This will make the list items horizontal */
+    list-style-type: none; /* This will remove bullet points */
+    padding: 0; /* This will remove padding */
+    margin: 0; /* This will remove margin */
+  }
+  
+  .menu a {
+    margin-right: 20px; /* This adds space between the menu items */
+    font-family: 'Preahvihear', sans-serif;
+    
+    @media(max-width: 1024px) {
+        margin: 0;
+        justify-content: space-between;
+        
+    }
+  }
+  
+  /* You can also add styles to make the list items look more like links */
+  .menu a {
+    cursor: pointer;
+    color: $blue; /* Example link color */
+    text-decoration: none;
+    font-size: 1.3rem;
+
+    @media(max-width: 767px) {
+        color: white;
+    
+    }
+
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+    color: $red;
+  }
+  
+
+  nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+
+    img {
+        position: relative;
+        left: 330px;
+        bottom: 80px;
+
+        @media(max-width: 1300px) {
+            display: none;
+          
+          }
+    }
+  }
+
+
+
+  @media(min-width: 767px) {
+    .hamburger-menu {
+        visibility: hidden;
+    }
+    .nav-close-btn {
+    visibility: hidden;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    nav.responsive_nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 999;
+      background-color: $blue;
+      gap: 1.5rem;
+      transition: 1s;
+      transform: translateY(0);
+    }
+
+    .hamburger-menu {
+        color: $blue;
+        border: none;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        background-color: $blue;
+        gap: 1.5rem;
+        transition: 1s;
+        transform: translateY(-100vh);
+
+        
+    }
+
+    .responsive_nav {
+        transform: translateY(0);
+
+    }
+
+    .nav-close-btn {
+        border: none;
+        background-color: $blue;
+        color: white;
+
+       
+    }
+  }
+
+  .home-btn {
+    display: none;
+}
+
+.responsive_nav .home-btn {
+    display: block;
+}
+  
+
+ 
