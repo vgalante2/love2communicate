@@ -32,7 +32,7 @@ const Testimonials = () => {
           <div className="review review-1" >
             <h4> <StarIcon className="stars-icon" / > <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> </h4>
             <h3>Nancy</h3>
-            <p>"From our very first session, the transformation in my child's speech and feeding skills was nothing short of remarkable. The therapist's gentle approach, paired with innovative techniques, made learning engaging and enjoyable."</p>
+            <p>"From our very first session, the transformation in my child's speech and feeding skills was nothing short of remarkable. The therapist's gentle approach, successful and efficient feeding strategies, made learning engaging and enjoyable."</p>
           </div>
           <div className="review review-2">
           <h4> <StarIcon className="stars-icon" / > <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> </h4>
@@ -42,7 +42,7 @@ const Testimonials = () => {
           <div className="review review-3">
           <h4> <StarIcon className="stars-icon" / > <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> </h4>
             <h3>Joan</h3>
-            <p>"As a mother, there's nothing more heart-wrenching than watching your child grapple with communication and feeding issues. We tried various therapists, but it wasn’t until we partnered with Gala that we truly began to see a remarkable difference. Their holistic approach, combining speech, feeding, and MYO therapy, is something im grateful for!."</p>
+            <p>"As a mother, there's nothing more heart-wrenching than watching your child grapple with communication and feeding issues. We tried various therapists, but it wasn’t until we partnered with Galina that we truly began to see a remarkable difference. Their comprehensive approach, combining speech, feeding, and MYO therapy, is something im grateful for!."</p>
           </div>
           <div className="review review-4">
           <h4> <StarIcon className="stars-icon" / > <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> <StarIcon className="stars-icon" /> </h4>

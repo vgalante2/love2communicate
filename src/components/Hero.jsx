@@ -11,7 +11,7 @@ function Hero() {
           <div className="content-section">
           <img src={miniSpeech} alt="mini-speech" className="mini-bubble" />
           <h1>Speech, Feeding, <br/> & Orofacial Myology Services </h1>
-          <p className="subheading">Unlocking Voices, Unleashing Potential: <RecordVoiceOverIcon  className="my-icon" /> <br/> Guiding Your Child from Struggling to Flourishing in Communication</p>
+          <p className="subheading">Unlocking Voices, Unleashing Potential: <RecordVoiceOverIcon  className="my-icon" /> <br/> Guiding Your Child from Struggling to Flourishing in Communication and Feeding</p>
           </div>
         </div>
       );

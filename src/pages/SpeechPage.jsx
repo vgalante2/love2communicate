@@ -31,7 +31,10 @@ function SpeechPage() {
     </div>
     <div className="speech-content-two">
         <h1>Feeding Assessments and Therapy</h1>
-        <p>Did you know Speech Pathologists (SLPs) and Occupational Therapists (OTs) are your go-to professionals for feeding therapy? We have a team of SLPs and OTs that specialize in feeding. If you have a problem feeder or picky eater, give us a call to learn how we can help them learn to accept new foods.</p>
+        <p>Did you know Speech Pathologists (SLPs) are your go-to professionals for feeding
+therapy? We have a team of SLPs that specialize in feeding. If you have a problem
+feeder or picky eater, give us a call to learn how we can help them learn to accept new
+foods.</p>
         <ul>
             <li>Feed The Peds </li>
             <li>Sequential Oral Sensory (S.O.S.) </li>

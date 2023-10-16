@@ -28,7 +28,12 @@ const bannerPic =  {
     <div className="myo-wrapper">
     <div className="myo-content">
         <h1>Orofacial Myofunctional Therapy</h1>
-        <p>We work with children through adults and take a whole team approach collaborating closely with professionals that may be an integral part of your or your child’s case (e.g., ENT’s, dentists, orthodontists, etc). We travel to YOU to provide services. Options to travel to a home-based office are available in some locations – please contact us to inquire.</p>
+        <p>We work with your child and take a whole team approach
+collaborating closely with professionals that may be an integral part
+of your or your child’s case (e.g., ENT’s, dentists, orthodontists, etc).
+We travel to YOU to provide services. Options to travel to a
+home-based office are available in some locations – please contact
+us to inquire.</p>
     </div>
     <div className="myo-content-two">
         <h1>Our Approach</h1>
