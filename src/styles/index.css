@@ -745,7 +745,8 @@ img {
   color: white;
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 8px;
+  font-size: 2rem;
 }
 @media (max-width: 768px) {
   .feeding h1 {
@@ -911,7 +912,8 @@ img {
   color: white;
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 8px;
+  font-size: 2rem;
 }
 @media (max-width: 768px) {
   .speech h1 {
@@ -1080,7 +1082,8 @@ img {
   color: white;
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 8px;
+  font-size: 2rem;
 }
 @media (max-width: 768px) {
   .myo h1 {
