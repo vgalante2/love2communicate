@@ -36,8 +36,11 @@ home-based office are available in some locations – please contact
 us to inquire.</p>
     </div>
     <div className="myo-content-two">
-        <h1>Our Approach</h1>
-        <p>We work with children, teens and adults to help eliminate thumb/finger-sucking, pacifier use, nail biting and other oral habits. Through “myo” therapy we also work on facial and tongue exercises to promote (1) an accurate resting posture (where your jaw, teeth, tongue and lips are correctly placed); and (2) adequate chewing and swallowing through elimination of tongue thrust.</p>
+        <h1>Evaluation and treatment process:</h1>
+        <p>First, the family completes the required intakes. Next, an initial evaluation will take
+place. We look at the “whole child” when determining the best treatment plan. If
+treatment is warranted we will use a combination of exercises in treatment and help to
+improve skills in the following areas:</p>
         <ul>
             <li>Speech/Articulation </li>
             <li> Tongue and facial rest postures </li>
