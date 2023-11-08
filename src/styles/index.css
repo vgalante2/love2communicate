@@ -734,6 +734,117 @@ img {
   color: #ff5555; /* Color for star icons */
 }
 
+.services-container {
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(247, 247, 247);
+}
+
+.content-container {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+@media (max-width: 767px) {
+  .content-container {
+    padding-top: 10%;
+  }
+}
+
+.speech-banner {
+  width: 60%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-family: "Preahvihear", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+.speech-banner a {
+  text-decoration: none;
+  color: white;
+}
+.speech-banner:hover {
+  opacity: 70%;
+  font-size: 2.5rem;
+}
+@media (max-width: 767px) {
+  .speech-banner:hover {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .speech-banner {
+    font-size: 1.2rem;
+  }
+}
+
+.feeding-banner {
+  width: 60%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Preahvihear", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+.feeding-banner a {
+  text-decoration: none;
+  color: white;
+}
+.feeding-banner:hover {
+  opacity: 70%;
+  font-size: 2.5rem;
+}
+@media (max-width: 767px) {
+  .feeding-banner:hover {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .feeding-banner {
+    font-size: 1.2rem;
+  }
+}
+
+.myo-banner {
+  width: 60%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Preahvihear", sans-serif;
+  font-size: 2rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.myo-banner a {
+  text-decoration: none;
+  color: white;
+}
+.myo-banner:hover {
+  opacity: 70%;
+  font-size: 2.5rem;
+}
+@media (max-width: 767px) {
+  .myo-banner:hover {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .myo-banner {
+    font-size: 1.2rem;
+  }
+}
+
 .feeding-section {
   height: 100%;
 }

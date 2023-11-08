@@ -28,8 +28,12 @@ const Navbar = () => {
    
     <nav ref={navRef}  >
     <a onClick={showNavbar} className="home-btn" href="/">Home</a>
+  <Link to="/services" >
   <a onClick={showNavbar} href="#services">Services</a>
+  </Link>
+  <Link to="/about/aboutus" >
   <a onClick={showNavbar} href="#about">About</a>
+  </Link>
   <a onClick={showNavbar} href="#testimonials">Testimonials</a>
   <a onClick={showNavbar} href="#contact">Contact us</a>
   <img src={navPic} alt="nav-pic" />
