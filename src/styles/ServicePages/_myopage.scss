@@ -1,8 +1,8 @@
 
 
 .myo-section {
-    height: 100%;
-}
+    min-height: 100%; // Use min-height to ensure the content dictates the height
+  }
 
 
 
@@ -25,15 +25,14 @@
 
 .myo-hero {
     background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 80vh;
-        opacity: 1;
-
-        @media(max-width:768px) {
-           height: 40vh;
-           }
-}
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh; // Use min-height to allow content to expand
+    opacity: 1;
+    @media(max-width: 768px) {
+      min-height: 40vh; // Allow content to expand if it's taller than 40vh
+    }
+  }
 
 
 
@@ -81,18 +80,14 @@
 
 .myo-wrapper {
     display: flex;
-    flex-direction: column; /* Horizontal layout */
-    align-items: center; /* Center items vertically */
-    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-   padding: 50px;
-
-
-   @media (max-width: 768px){
-    height: 100vh;
+    padding: 50px;
+    min-height: 100vh; // This could be fine, but be aware of mobile browser behavior
+    @media (max-width: 768px) {
       padding: 20px;
-   };
-    
+    }
   }
 
  
