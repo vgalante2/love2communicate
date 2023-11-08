@@ -15,7 +15,7 @@ function AboutPage() {
     <div id="about" className="image-area">
         <img src={avatar} alt="avatar"  />
         <div className="text-container">
-            <p className="item-1"> Speech language pathologist M.A., CCC-SLP</p>
+            <p className="item-1"> Speech language pathologist M.A. CCC-SLP</p>
             <h1 className="item-2">Galina Kislin</h1>
             <p className="item-3"> Galina Kislin is the founder and owner of Love2communicate LLC.
 She is a licensed and certified speech-language pathologist with

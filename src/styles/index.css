@@ -474,7 +474,7 @@ img {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 77px;
+  padding-top: 40px;
 }
 @media screen and (max-width: 768px) {
   .about-container {
@@ -543,7 +543,7 @@ img {
 @media screen and (max-width: 768px) {
   .text-container .item-1 {
     padding-left: 18px;
-    font-size: 8px;
+    font-size: 10px;
     top: 50px;
   }
 }
@@ -571,7 +571,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .text-container .item-3 {
-    font-size: 13px;
+    font-size: 10px;
     text-align: center;
   }
 }
