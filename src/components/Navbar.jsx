@@ -34,8 +34,12 @@ const Navbar = () => {
   <Link to="/about/aboutus" >
   <a onClick={showNavbar} href="#about">About</a>
   </Link>
+  <Link to="/testimonials" >
   <a onClick={showNavbar} href="#testimonials">Testimonials</a>
+  </Link>
+  <Link to="/contact" >
   <a onClick={showNavbar} href="#contact">Contact us</a>
+  </Link>
   <img src={navPic} alt="nav-pic" />
   <button className="nav-btn nav-close-btn" onClick={showNavbar}>
     <CancelIcon /> 

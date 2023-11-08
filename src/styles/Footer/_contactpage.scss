@@ -1,0 +1,118 @@
+
+
+.contactpage-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: white;
+    background-color: $blue;
+
+
+    @media(max-width:767px) {
+      height: 83.6vh;
+}
+
+    p {
+        color: white;
+       
+        @media(max-width:767px) {
+          font-size: 1rem;
+    }
+  }
+
+  h1 {
+    @media(max-width:767px) {
+      font-size: 2rem;
+}
+  }
+}
+
+.contactpage-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+  
+
+  p {
+    font-size: 1.5rem;
+  
+  }
+
+  .contact-page-number {
+    color: $red;
+
+    @media(max-width:767px) {
+      font-size: 1rem;
+      width: 100%;
+      margin: 2px;
+}
+    
+  }
+
+  .contact-page-email {
+    color: $red;
+  
+    @media(max-width:767px) {
+      font-size: 1rem;
+      width: 100%;
+      margin: 2px;
+}
+    
+  }
+}
+
+
+.contact-page-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+line-height: 1.2;
+padding: 0 1rem;
+
+@media(max-width:767px) {
+
+}
+
+}
+
+.insurance {
+    padding: 0 5rem;
+
+    @media(max-width: 767px) {
+        padding: 0 1rem;
+    }
+}
+
+.email-icon {
+    font-size: 30px;
+   position: relative;
+   top: 6px;
+   color: $red;
+   margin-top: 0;
+
+   @media(max-width:767px) {
+    font-size: 20px;
+   }
+}
+
+.phone-icon {
+    font-size: 30px;
+    position: relative;
+    top: 6px;
+    color: $red;
+
+    @media(max-width:767px) {
+      font-size: 20px;
+    }
+    
+}
+
+
+
+
