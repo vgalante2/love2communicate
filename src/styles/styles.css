@@ -1246,7 +1246,6 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  min-height: 100vh;
 }
 @media (max-width: 768px) {
   .speech-wrapper {
