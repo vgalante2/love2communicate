@@ -20,7 +20,7 @@ function SpeechPage() {
     </div>
     <div className="speech-hero" style={bannerPic} > 
     <div className="speech-header">
-    <h1>Speech & Language Evaluations & Therapy</h1>
+    <h1>Speech & Language Evaluations and Therapy</h1>
     <p> With leading specialists</p>
     </div>
     </div>
@@ -39,9 +39,10 @@ foods.</p>
             <li>Feed The Peds </li>
             <li>Sequential Oral Sensory (S.O.S.) </li>
             <li>Food Chaining </li>
-            <li>Talk Tools Sensori-motor approach to feeding </li>
+            <li>Talk Tools Sensory-motor approach to feeding </li>
             <li>Beckman Oral Motor </li>
         </ul>
+        <p> We travel to you and your child's school, and we offer virtual therapy. We offer services in Monmouth, Middlesex and Ocean County in New Jersey. </p>
     </div>
     </div>
    
