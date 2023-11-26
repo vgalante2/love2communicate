@@ -14,7 +14,7 @@ function SpeechPage() {
   }
 
   return (
-    <section className="feeding-section">
+    <section className="speech-section">
     <div  className="speech">
         <h1> Speech Therapy </h1>
     </div>
