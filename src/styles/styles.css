@@ -1253,8 +1253,7 @@ img {
     padding: 20px;
   }
 }
-
-.speech-content {
+.speech-wrapper .speech-content {
   background-color: #0B3E6C;
   width: 100%;
   border-radius: 20px;
@@ -1264,35 +1263,34 @@ img {
   justify-content: center;
 }
 @media (max-width: 768px) {
-  .speech-content {
+  .speech-wrapper .speech-content {
     margin-bottom: 20px;
   }
 }
-.speech-content h1 {
+.speech-wrapper .speech-content h1 {
   font-size: 2rem;
 }
 @media (max-width: 768px) {
-  .speech-content h1 {
+  .speech-wrapper .speech-content h1 {
     font-size: 1.5rem;
     text-align: center;
   }
 }
-.speech-content p {
+.speech-wrapper .speech-content p {
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 @media (max-width: 768px) {
-  .speech-content p {
+  .speech-wrapper .speech-content p {
     font-size: 0.7rem;
     text-align: center;
   }
 }
-.speech-content h1, .speech-content p {
+.speech-wrapper .speech-content h1, .speech-wrapper .speech-content p {
   padding: 1rem 3rem;
   color: white;
 }
-
-.speech-content-two {
+.speech-wrapper .speech-content-two {
   background-color: #ff5555;
   width: 100%;
   display: flex;
@@ -1301,30 +1299,30 @@ img {
   justify-content: center;
   border-radius: 20px;
 }
-.speech-content-two h1 {
+.speech-wrapper .speech-content-two h1 {
   text-align: center;
   font-size: 2rem;
   padding: 1rem 3rem;
   color: rgb(255, 255, 255);
 }
 @media (max-width: 768px) {
-  .speech-content-two h1 {
+  .speech-wrapper .speech-content-two h1 {
     font-size: 1.5rem;
     text-align: center;
   }
 }
-.speech-content-two p {
+.speech-wrapper .speech-content-two p {
   color: white;
   padding: 1rem 2rem;
   font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 768px) {
-  .speech-content-two p {
+  .speech-wrapper .speech-content-two p {
     font-size: 0.6rem;
     text-align: center;
   }
 }
-.speech-content-two ul {
+.speech-wrapper .speech-content-two ul {
   color: white;
   font-family: "Open Sans", sans-serif;
   display: flex;
@@ -1334,7 +1332,7 @@ img {
   padding: 1rem 2rem;
 }
 @media (max-width: 768px) {
-  .speech-content-two ul {
+  .speech-wrapper .speech-content-two ul {
     font-size: 0.7rem;
     text-align: center;
   }
