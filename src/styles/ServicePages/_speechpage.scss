@@ -31,7 +31,7 @@
         opacity: 1;
 
         @media(max-width:768px) {
-            min-height: 40vh; // Allow content to expand if it's taller than 40vh
+            min-height: auto; // Allow content to expand if it's taller than 40vh
            }
 }
 

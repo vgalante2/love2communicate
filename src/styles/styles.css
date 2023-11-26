@@ -1200,7 +1200,7 @@ img {
 }
 @media (max-width: 768px) {
   .speech-hero {
-    min-height: 40vh;
+    min-height: auto;
   }
 }
 
