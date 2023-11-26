@@ -86,7 +86,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    // This could be fine, but be aware of mobile browser behavior
+
     @media (max-width: 768px) {
       padding: 30px;
     }
@@ -193,4 +193,10 @@
     }
 
    }
+}
+
+.speech-bottom-text {
+    @media(max-width:768px) {
+       padding: 5px 10px;
+       }
 }
