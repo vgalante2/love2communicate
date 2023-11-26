@@ -1340,7 +1340,7 @@ img {
 
 @media (max-width: 768px) {
   .speech-bottom-text {
-    padding: 5px 10px;
+    padding: 5px 10px !important;
   }
 }
 
