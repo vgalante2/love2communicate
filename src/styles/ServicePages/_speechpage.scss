@@ -33,6 +33,10 @@
            }
 }
 
+.speech-wrapper, .speech-content, .speech-content-two {
+    max-width: 100%;
+    box-sizing: border-box; /* This ensures padding is included in the width */
+}
 
 
 
@@ -81,7 +85,6 @@
     display: flex;
     flex-direction: column; /* Horizontal layout */
     align-items: center; /* Center items vertically */
-    
     justify-content: space-between;
    padding: 100px;
 
@@ -96,7 +99,7 @@
 
   .speech-content {
    background-color: $blue;
-    width: 100%;
+    
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -139,7 +142,7 @@
 
    .speech-content-two {
     background-color: $red;
-    width: 100%;
+   
     display: flex;
     align-items: center;
     flex-direction: column;

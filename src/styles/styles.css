@@ -1200,6 +1200,11 @@ img {
   }
 }
 
+.speech-wrapper, .speech-content, .speech-content-two {
+  max-width: 100%;
+  box-sizing: border-box; /* This ensures padding is included in the width */
+}
+
 .speech-header {
   margin: 0;
   padding: 0;
@@ -1251,7 +1256,6 @@ img {
 
 .speech-content {
   background-color: #0B3E6C;
-  width: 100%;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -1289,7 +1293,6 @@ img {
 
 .speech-content-two {
   background-color: #ff5555;
-  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
