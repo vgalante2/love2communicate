@@ -44,7 +44,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 40vh;
+    height: 200px;
    
 
     h1 {
@@ -55,7 +55,7 @@
       font-size: $big-text;
 
       @media(max-width:768px) {
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
        }
     }
@@ -83,12 +83,11 @@
     align-items: center; /* Center items vertically */
     
     justify-content: space-between;
-   padding: 50px;
+   padding: 100px;
 
 
    @media (max-width: 768px){
-    height: 100vh;
-      padding: 20px;
+      padding: 10px;
    };
     
   }
@@ -106,7 +105,7 @@
  
    
     @media(max-width:768px) {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     
        }
 
@@ -125,7 +124,7 @@
         text-align: center;
 
         @media(max-width:768px) {
-            font-size: 0.7rem;
+            font-size: 1rem;
             text-align: center;
            }
 
@@ -146,16 +145,22 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
+
+    @media(max-width:768px) {
+        gap: 5px;
+
+    }
+   
     
     h1 {
         text-align: center;
         font-size: 2rem;
         padding: 1rem 3rem;
     
-        color: white;
+        color: rgb(255, 255, 255);
 
         @media(max-width:768px) {
-            font-size: 1.5rem;
+            font-size: 0.5rem;
             text-align: center;
            }
     }
@@ -167,7 +172,7 @@
        font-family: 'Open Sans', sans-serif;
 
        @media(max-width:768px) {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         text-align: center;
        }
        
@@ -184,7 +189,7 @@
       padding: 1rem 2rem;
 
       @media(max-width:768px) {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         text-align: center;
        }
     }

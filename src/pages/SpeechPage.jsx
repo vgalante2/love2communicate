@@ -42,7 +42,7 @@ foods.</p>
             <li>Talk Tools Sensory-motor approach to feeding </li>
             <li>Beckman Oral Motor </li>
         </ul>
-        <p> We travel to you and your child's school, and we offer virtual therapy. We offer services in Monmouth, Middlesex and Ocean County in New Jersey. </p>
+        <p> We travel to you or your child's school, and we offer virtual therapy. We offer services in Monmouth, Middlesex and Ocean County in New Jersey. </p>
     </div>
     </div>
    
