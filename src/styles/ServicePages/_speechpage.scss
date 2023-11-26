@@ -86,7 +86,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-
+    height: 100%;
     @media (max-width: 768px) {
       padding: 30px;
     }
@@ -195,8 +195,3 @@
    }
 }
 
-.speech-bottom-text {
-    @media(max-width:768px) {
-       padding: 5px 10px !important;
-       }
-}

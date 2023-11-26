@@ -1246,6 +1246,7 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 50px;
+  height: 100%;
 }
 @media (max-width: 768px) {
   .speech-wrapper {
@@ -1335,12 +1336,6 @@ img {
   .speech-wrapper .speech-content-two ul {
     font-size: 0.7rem;
     text-align: center;
-  }
-}
-
-@media (max-width: 768px) {
-  .speech-bottom-text {
-    padding: 5px 10px !important;
   }
 }
 
