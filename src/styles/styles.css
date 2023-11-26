@@ -1170,6 +1170,10 @@ img {
   }
 }
 
+.speech-section {
+  min-height: 100%;
+}
+
 .speech {
   background-color: #0B3E6C;
 }
@@ -1196,13 +1200,8 @@ img {
 }
 @media (max-width: 768px) {
   .speech-hero {
-    height: auto;
+    min-height: 40vh;
   }
-}
-
-.speech-wrapper, .speech-content, .speech-content-two {
-  max-width: 100%;
-  box-sizing: border-box; /* This ensures padding is included in the width */
 }
 
 .speech-header {
@@ -1212,7 +1211,7 @@ img {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 200px;
+  height: 40vh;
 }
 .speech-header h1 {
   color: white;
@@ -1223,7 +1222,7 @@ img {
 }
 @media (max-width: 768px) {
   .speech-header h1 {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
   }
 }
@@ -1243,19 +1242,21 @@ img {
 
 .speech-wrapper {
   display: flex;
-  flex-direction: column; /* Horizontal layout */
-  align-items: center; /* Center items vertically */
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
-  padding: 100px;
+  padding: 50px;
+  min-height: 100vh;
 }
 @media (max-width: 768px) {
   .speech-wrapper {
-    padding: 10px;
+    padding: 20px;
   }
 }
 
 .speech-content {
   background-color: #0B3E6C;
+  width: 100%;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -1264,7 +1265,7 @@ img {
 }
 @media (max-width: 768px) {
   .speech-content {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 .speech-content h1 {
@@ -1282,7 +1283,7 @@ img {
 }
 @media (max-width: 768px) {
   .speech-content p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-align: center;
   }
 }
@@ -1293,16 +1294,12 @@ img {
 
 .speech-content-two {
   background-color: #ff5555;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   border-radius: 20px;
-}
-@media (max-width: 768px) {
-  .speech-content-two {
-    gap: 5px;
-  }
 }
 .speech-content-two h1 {
   text-align: center;
@@ -1312,7 +1309,7 @@ img {
 }
 @media (max-width: 768px) {
   .speech-content-two h1 {
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 }
@@ -1323,7 +1320,7 @@ img {
 }
 @media (max-width: 768px) {
   .speech-content-two p {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     text-align: center;
   }
 }
@@ -1338,7 +1335,7 @@ img {
 }
 @media (max-width: 768px) {
   .speech-content-two ul {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     text-align: center;
   }
 }

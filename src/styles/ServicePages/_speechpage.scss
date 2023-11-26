@@ -1,9 +1,11 @@
 
 
+.speech-section {
+    min-height: 100%; // Use min-height to ensure the content dictates the height
+  }
 
 
-
-
+ 
 .speech{
     background-color:$blue;
 
@@ -29,14 +31,11 @@
         opacity: 1;
 
         @media(max-width:768px) {
-           height: auto;
+            min-height: 40vh; // Allow content to expand if it's taller than 40vh
            }
 }
 
-.speech-wrapper, .speech-content, .speech-content-two {
-    max-width: 100%;
-    box-sizing: border-box; /* This ensures padding is included in the width */
-}
+
 
 
 
@@ -48,7 +47,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 200px;
+    height: 40vh;
    
 
     h1 {
@@ -59,7 +58,7 @@
       font-size: $big-text;
 
       @media(max-width:768px) {
-        font-size: 1rem;
+        font-size: 2rem;
         text-align: center;
        }
     }
@@ -83,23 +82,21 @@
 
 .speech-wrapper {
     display: flex;
-    flex-direction: column; /* Horizontal layout */
-    align-items: center; /* Center items vertically */
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-   padding: 100px;
-
-
-   @media (max-width: 768px){
-      padding: 10px;
-   };
-    
+    padding: 50px;
+    min-height: 100vh; // This could be fine, but be aware of mobile browser behavior
+    @media (max-width: 768px) {
+      padding: 20px;
+    }
   }
 
  
 
   .speech-content {
    background-color: $blue;
-    
+    width: 100%;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -108,7 +105,7 @@
  
    
     @media(max-width:768px) {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     
        }
 
@@ -127,7 +124,7 @@
         text-align: center;
 
         @media(max-width:768px) {
-            font-size: 1rem;
+            font-size: 0.7rem;
             text-align: center;
            }
 
@@ -142,17 +139,13 @@
 
    .speech-content-two {
     background-color: $red;
-   
+   width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
 
-    @media(max-width:768px) {
-        gap: 5px;
-
-    }
    
     
     h1 {
@@ -163,7 +156,7 @@
         color: rgb(255, 255, 255);
 
         @media(max-width:768px) {
-            font-size: 0.5rem;
+            font-size: 1.5rem;
             text-align: center;
            }
     }
@@ -175,7 +168,7 @@
        font-family: 'Open Sans', sans-serif;
 
        @media(max-width:768px) {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         text-align: center;
        }
        
@@ -192,7 +185,7 @@
       padding: 1rem 2rem;
 
       @media(max-width:768px) {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         text-align: center;
        }
     }
