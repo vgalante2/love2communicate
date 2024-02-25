@@ -26,7 +26,7 @@ function FeedingPage() {
     </div>
     <div className="feeding-wrapper">
     <div className="feeding-content">
-        <h1>In-home Feeding Therapy</h1>
+        <h1>In-Home Feeding Therapy</h1>
         <p>All services are provided in your child’s home or school/daycare
 center. We work closely with all caregivers and will gladly
 collaborate with other professionals.</p>

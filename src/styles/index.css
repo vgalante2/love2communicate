@@ -1109,7 +1109,7 @@ img {
 }
 @media (max-width: 768px) {
   .feeding-content {
-    padding-top: 5px;
+    padding-top: 15px;
   }
 }
 .feeding-content h1 {
@@ -1117,7 +1117,7 @@ img {
 }
 @media (max-width: 768px) {
   .feeding-content h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 }
