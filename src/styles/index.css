@@ -895,11 +895,10 @@ img {
 }
 
 .content-container {
-  padding-top: 5%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: 80%;
 }
@@ -911,7 +910,7 @@ img {
 
 .speech-banner {
   width: 60%;
-  height: 35%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -942,7 +941,7 @@ img {
 
 .feeding-banner {
   width: 60%;
-  height: 35%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -971,11 +970,12 @@ img {
 
 .myo-banner {
   width: 60%;
-  height: 35%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Preahvihear", sans-serif;
+  color: white;
   font-size: 2rem;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -996,6 +996,20 @@ img {
 @media (max-width: 767px) {
   .myo-banner {
     font-size: 1.2rem;
+  }
+}
+
+.banner-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  height: 20%;
+  width: 60%;
+}
+@media (max-width: 767px) {
+  .banner-link {
+    width: 100%;
   }
 }
 
@@ -1170,6 +1184,10 @@ img {
   }
 }
 
+.speech-section {
+  height: 100%;
+}
+
 .speech {
   background-color: #0B3E6C;
 }
@@ -1196,7 +1214,7 @@ img {
 }
 @media (max-width: 768px) {
   .speech-hero {
-    height: 40vh;
+    min-height: auto;
   }
 }
 
@@ -1238,19 +1256,18 @@ img {
 
 .speech-wrapper {
   display: flex;
-  flex-direction: column; /* Horizontal layout */
-  align-items: center; /* Center items vertically */
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
   padding: 50px;
+  height: 100%;
 }
 @media (max-width: 768px) {
   .speech-wrapper {
-    height: 100vh;
-    padding: 20px;
+    padding: 30px;
   }
 }
-
-.speech-content {
+.speech-wrapper .speech-content {
   background-color: #0B3E6C;
   width: 100%;
   border-radius: 20px;
@@ -1260,78 +1277,78 @@ img {
   justify-content: center;
 }
 @media (max-width: 768px) {
-  .speech-content {
+  .speech-wrapper .speech-content {
     margin-bottom: 20px;
   }
 }
-.speech-content h1 {
+.speech-wrapper .speech-content h1 {
   font-size: 2rem;
 }
 @media (max-width: 768px) {
-  .speech-content h1 {
+  .speech-wrapper .speech-content h1 {
     font-size: 1.5rem;
     text-align: center;
   }
 }
-.speech-content p {
+.speech-wrapper .speech-content p {
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 @media (max-width: 768px) {
-  .speech-content p {
+  .speech-wrapper .speech-content p {
     font-size: 0.7rem;
     text-align: center;
   }
 }
-.speech-content h1, .speech-content p {
+.speech-wrapper .speech-content h1, .speech-wrapper .speech-content p {
   padding: 1rem 3rem;
   color: white;
 }
-
-.speech-content-two {
+.speech-wrapper .speech-content-two {
   background-color: #ff5555;
   width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   border-radius: 20px;
 }
-.speech-content-two h1 {
+.speech-wrapper .speech-content-two h1 {
   text-align: center;
   font-size: 2rem;
   padding: 1rem 3rem;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 @media (max-width: 768px) {
-  .speech-content-two h1 {
+  .speech-wrapper .speech-content-two h1 {
     font-size: 1.5rem;
     text-align: center;
   }
 }
-.speech-content-two p {
+.speech-wrapper .speech-content-two p {
   color: white;
   padding: 1rem 2rem;
   font-family: "Open Sans", sans-serif;
 }
 @media (max-width: 768px) {
-  .speech-content-two p {
-    font-size: 0.7rem;
+  .speech-wrapper .speech-content-two p {
+    font-size: 0.6rem;
     text-align: center;
   }
 }
-.speech-content-two ul {
+.speech-wrapper .speech-content-two ul {
   color: white;
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
 }
 @media (max-width: 768px) {
-  .speech-content-two ul {
-    font-size: 0.8rem;
+  .speech-wrapper .speech-content-two ul {
+    font-size: 0.7rem;
     text-align: center;
   }
 }

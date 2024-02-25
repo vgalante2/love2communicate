@@ -10,32 +10,41 @@ function ServicesPage() {
         <div className="services-container"> 
           <div className="content-container">
          
+          <Link to="/services/speech" className="banner-link">
             <div className="speech-banner" style={{ 
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(${speechTitle})`,
               backgroundPosition: 'top center',
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover'
+             
             }}>
-              <Link to="/services/speech" className="banner-link">Speech Therapy</Link>
+              Speech Therapy
             </div>
-           
+            </Link>
+
+              <Link to="/services/feeding" className="banner-link">
             <div className="feeding-banner" style={{ 
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(${feedTitle})`,
               backgroundPosition: 'bottom center',
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover'
+              
             }}>
-              <Link to="/services/feeding" className="banner-link">Feeding Therapy</Link>
+              Feeding Therapy
             </div>
-            
+            </Link>
+
+            <Link to="/services/myo" className="banner-link">
             <div className="myo-banner" style={{ 
               backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(${myoTitle})`,
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat',
               backgroundSize: 'cover'
+              
             }}>
-              <Link to="/services/myo" className="banner-link">MYO Therapy</Link>
+             MYO Therapy
             </div>
+            </Link>
             
           </div>
         </div> 
