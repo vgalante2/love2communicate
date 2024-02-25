@@ -1089,18 +1089,17 @@ img {
   align-items: center; /* Center items vertically */
   min-height: 100vh;
   justify-content: center;
-  padding: 50px;
+  padding: 20px;
 }
 @media (max-width: 768px) {
   .feeding-wrapper {
-    height: 100vh;
     padding: 20px;
   }
 }
 
 .feeding-content {
   background-color: #0B3E6C;
-  width: 80%;
+  width: 85%;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -1138,17 +1137,22 @@ img {
 
 .feeding-content-two {
   background-color: #ff5555;
-  width: 80%;
+  width: 85%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
   border-radius: 20px;
 }
+@media (max-width: 768px) {
+  .feeding-content-two {
+    max-height: 60%;
+  }
+}
 .feeding-content-two h1 {
   text-align: center;
   font-size: 2rem;
-  padding: 1rem 3rem;
+  padding: 0.5rem 3rem;
   color: white;
 }
 @media (max-width: 768px) {
