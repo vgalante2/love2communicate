@@ -27,7 +27,7 @@
     background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 80vh;
+        height: 60vh;
         opacity: 1;
 
         @media(max-width:768px) {
@@ -96,7 +96,7 @@
 
   .speech-content {
    background-color: $blue;
-    width: 100%;
+    width: 80%;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -139,7 +139,7 @@
 
    .speech-content-two {
     background-color: $red;
-   width: 100%;
+   width: 80%;
    height: auto;
     display: flex;
     align-items: center;

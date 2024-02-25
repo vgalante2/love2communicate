@@ -83,7 +83,7 @@
     flex-direction: column; /* Horizontal layout */
     align-items: center; /* Center items vertically */
     min-height: 100vh;
-    justify-content: space-between;
+    justify-content: center;
    padding: 50px;
 
 
@@ -98,7 +98,7 @@
 
   .feeding-content {
    background-color: $blue;
-    width: 100%;
+    width: 80%;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -107,7 +107,7 @@
  
    
     @media(max-width:768px) {
-        margin-bottom: 20px;
+        padding-top: 5px;
     
        }
 
@@ -118,6 +118,7 @@
    @media(max-width:768px) {
     font-size: 1.5rem;
     text-align: center;
+    
    }
 }
 
@@ -141,7 +142,7 @@
 
    .feeding-content-two {
     background-color: $red;
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;
