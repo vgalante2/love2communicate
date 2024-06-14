@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import feedingBanner from "../assets/images/cooking.jpeg";
+import feedingBanner from "../assets/images/feeding.jpeg";
 
 
 function FeedingPage() {
