@@ -35,7 +35,7 @@ She is trained in the following therapeutic approaches:
 Feeding in Fragile Infants (SOFFI), SOS Approach to Feeding
 Therapy. Specialized course work in Orofacial Myofunctional
 Disorders, Effects of Nutrition on the brain, Kaufman Approach to
-Apraxia, Moving Across Syllables and Oral Motor Placement
+Apraxia, DTTC (Dynamic Temporal and Tactile Cueing) and Oral Motor Placement
 Therapy.
 Passionate and dedicated to sharing her knowledge, empowering
 parents and other therapists through collaboration and education.
