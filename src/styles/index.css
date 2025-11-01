@@ -10,6 +10,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  
 }
 
 html {
@@ -28,6 +29,7 @@ html {
 .logo {
   height: 11rem;
   width: auto;
+  border: none !important;
 }
 @media (max-width: 1024px) {
   .logo {

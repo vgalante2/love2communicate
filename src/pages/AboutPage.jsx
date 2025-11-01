@@ -1,3 +1,4 @@
+
 import React from 'react';
 import avatar from '../assets/images/avatar.png';
 import speechPicBG from '../assets/images/speech-pic.jpeg';
@@ -15,34 +16,31 @@ function AboutPage() {
     <div id="about" className="image-area">
         <img src={avatar} alt="avatar"  />
         <div className="text-container">
-            <p className="item-1"> Speech language pathologist M.A. CCC-SLP</p>
-            <h1 className="item-2">Galina Kislin</h1>
-            <p className="item-3"> Galina Kislin is the founder and owner of Love2communicate LLC.
-She is a licensed and certified speech-language pathologist with
-over 23 years of experience as pediatric speech language
-pathologist and a feeding specialist. Extensive experience in
-working with toddlers and preschoolers with ASD, ADHD, SPD,
-ODD, children with sensory-motor based feeding disorders,
-anxious eaters, childhood apraxia of speech and TOT’s. She has
-worked in early intervention, private practice, hospitals, daycare
-centers, preschools and elementary schools in NY and NJ.
-She is trained in the following therapeutic approaches:
-
-
- <br/> 
- <br/>
- Beckman Oral Motor Assessment and Intervention, Supporting Oral
-Feeding in Fragile Infants (SOFFI), SOS Approach to Feeding
-Therapy. Specialized course work in Orofacial Myofunctional
-Disorders, Effects of Nutrition on the brain, Kaufman Approach to
-Apraxia, DTTC (Dynamic Temporal and Tactile Cueing) and Oral Motor Placement
-Therapy.
-Passionate and dedicated to sharing her knowledge, empowering
-parents and other therapists through collaboration and education.
-Her philosophy is a whole child approach from the initial evaluation
-until discharge. A comprehensive speech and or feeding evaluation,
-collaboration with all providers and parents is a recipe for success in
-therapy.</p>
+        <p className="item-2">Galina Kislin, M.A., CCC-SLP, CMT</p>
+            <p className="item-1"> Speech-Language Pathologist | Feeding Specialist | Certified Myofunctional Therapist</p>
+            
+            <p className="item-3">Galina Kislin is the founder and owner of Love2Communicate LLC. She is a licensed speech-language pathologist and certified myofunctional therapist with over 25 years 
+       of experience helping young children and their families navigate the challenges associated with communication and feeding difficulties.
+       
+    
+       <br/>
+       <br/>
+       Galina specializes in working with toddlers and preschoolers with speech and language disorders and developmental differences such as autism (ASD), ADHD, sensory processing
+        challenges (SPD), and oppositional defiant disorder (ODD). She also supports children with sensory motor feeding difficulties, anxious eating, childhood apraxia of speech, and lip or tongue ties.       
+      
+      <br/>
+      <br/>
+       Throughout her career, Galina has worked in many settings—including early intervention, private practice, hospitals, daycare centers, preschools, and elementary schools across New York and New Jersey.       
+       
+       <br/>
+       <br/>
+       She has advanced training in a variety of approaches, including Beckman Oral Motor Protocol, SOFFI (Supporting Oral Feeding in Fragile Infants), SOS Approach to Feeding, Kaufman 
+       Approach to Apraxia, DTTC (Dynamic Temporal and Tactile Cueing), and Oral Motor Placement Therapy. She has also completed specialized coursework in orofacial myofunctional disorders, airway development, habit elimination, speech sound disorders, and Gestalt Language Processing.      
+       
+      <br/>
+      <br/>
+       Galina is passionate about helping each child reach their full potential while supporting families every step of the way. She believes in a whole-child, family-centered approach—focusing not just on
+        therapy goals, but on empowering parents, fostering confidence, and creating positive experiences that last a lifetime. </p>
         </div>
     </div>
    </div> 
