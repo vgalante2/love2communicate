@@ -1,7 +1,7 @@
 import React from 'react';
 import speechBanner from "../assets/images/speech-banner2.png";
 import miniSpeech from "../assets/images/mini-bubble.png";
-import RecordVoiceOverIcon from '@mui/icons-material/RecordVoiceOver';
+
 
 function Hero() {
     
