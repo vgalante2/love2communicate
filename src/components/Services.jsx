@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import speech from '../assets/images/speech.png';
-import feeding from '../assets/images/feeding.png';
-import myo from '../assets/images/myo.png';
+import speech from '../assets/images/speech_updated.png';
+import feeding from '../assets/images/feeding_update.png';
+import myo from '../assets/images/myo_updated.png';
 
 
 function Services() {

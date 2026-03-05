@@ -16,33 +16,35 @@ function SpeechPage() {
   return (
     <section className="speech-section">
     <div  className="speech">
-        <h1> Speech Therapy </h1>
+        
     </div>
     <div className="speech-hero" style={bannerPic} > 
     <div className="speech-header">
     <h1>Speech & Language Evaluations and Therapy</h1>
-    <p> With leading specialists</p>
+    
     </div>
     </div>
     <div className="speech-wrapper">
     <div className="speech-content">
-        <h1>How Does it Work?</h1>
-        <p>A comprehensive evaluation is required to begin services. An evaluation generally takes about 2 hours and assesses receptive & expressive language, speech, feeding and oral motor skills.  Following the assessment you will receive a written report detailing our findings, recommendations and treatment plan, if treatment is recommended.</p>
+        <h1>Evaluation</h1>
+        <h3 className="sub">Speech Therapy is offered in person. We come to you. We also offer speech therapy virtually.</h3>
+        <p>First, formal and informal testing is used to evaluate all speech and language concerns. The evaluation also includes a complete assessment of oral function and structures. This results in a diagnosis.
+A report is then written with an individualized plan of care. Caregivers are involved in every step of this process. All goals and strategies are outlined and reviewed with the family. We can make recommendations and referrals to additional specialists and doctors as needed. Love2communciate believes that collaboration is key to success.
+</p>
     </div>
     <div className="speech-content-two">
-        <h1>Feeding Assessments and Therapy</h1>
-        <p>Did you know Speech Pathologists (SLPs) are your go-to professionals for feeding
-therapy? We have a team of SLPs that specialize in feeding. If you have a problem
-feeder or picky eater, give us a call to learn how we can help them learn to accept new
-foods.</p>
+        <h1>Our Therapy</h1>
+        <h3 className="sub-head">What we treat: </h3>
+        
         <ul>
-            <li>Feed The Peds </li>
-            <li>Sequential Oral Sensory (S.O.S.) </li>
-            <li>Food Chaining </li>
-            <li>Talk Tools Sensory-motor approach to feeding </li>
-            <li>Beckman Oral Motor </li>
+            <li>Speech  and language delays </li>
+            <li>Pragmatic disorder</li>
+            <li>Childhood Apraxia of Speech </li>
+            <li>Articulation Disorder</li>
+            <li>Phonological Disorder</li>
+            <li>Receptive-Expressive Language Disorder</li>
+            <li>Stuttering</li>
         </ul>
-        <p> We travel to you or your child's school, and we offer virtual therapy. We offer services in Monmouth, Middlesex and Ocean County in New Jersey. </p>
     </div>
     </div>
    

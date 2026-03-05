@@ -81,117 +81,42 @@
 
 
 .speech-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    height: 100%;
-    @media (max-width: 768px) {
-      padding: 30px;
-    }
-  
+  display: flex;
+  flex-direction: row;      /* ✅ 2 columns */
+  align-items: stretch;     /* ✅ equal height cards */
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 
- 
-
-  .speech-content {
-   background-color: $blue;
-    width: 80%;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
- 
-   
-    @media(max-width:768px) {
-        margin-bottom: 20px;
-    
-       }
-
-   h1 {
-   font-size: 2rem;
-
-
-   @media(max-width:768px) {
-    font-size: 1.5rem;
-    text-align: center;
-   }
+  @media (max-width: 768px) {
+    flex-direction: column; /* ✅ stack on mobile */
+    padding: 20px;
+  }
 }
 
-    p {
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
+.speech-content,
+.speech-content-two {
+  flex: 1;                   /* ✅ each takes 50% */
+  border-radius: 20px;
+  padding: 40px;
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
 
-        @media(max-width:768px) {
-            font-size: 0.7rem;
-            text-align: center;
-           }
-
-}
-    h1, p {
-        padding: 1rem 3rem;
-        color: white;
-    }
-
-
-   }
-
-   .speech-content-two {
-    background-color: $red;
-   width: 80%;
-   height: auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 20px;
-
-   
-    
-    h1 {
-        text-align: center;
-        font-size: 2rem;
-        padding: 1rem 3rem;
-    
-        color: rgb(255, 255, 255);
-
-        @media(max-width:768px) {
-            font-size: 1.5rem;
-            text-align: center;
-           
-           }
-    }
-
-    p {
-        color: white;
-       
-       padding: 1rem 2rem;
-       font-family: 'Open Sans', sans-serif;
-
-       @media(max-width:768px) {
-        font-size: 0.6rem;
-        text-align: center;
-       }
-       
-    }
-
-    ul {
-        
-        color: white;
-        font-family: 'Open Sans', sans-serif;
-       display: flex;
-       flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 0.5rem 2rem;
-
-      @media(max-width:768px) {
-        font-size: 0.7rem;
-        text-align: center;
-       }
-    }
-
-   }
+  /* remove old widths */
+  width: auto;
 }
 
+.sub-head {
+    font-size: 20px;
+    color: $blue;
+}
+
+li {
+    padding-top: 2px;
+}
+
+p {
+    line-height: 25px;
+}

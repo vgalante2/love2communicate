@@ -71,26 +71,14 @@
   }
 }
 
-/* CTA button (outside the card but centered) */
-.btn-about {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin: 16px auto 0;      /* center under the card */
-  padding: 10px 22px;
-  border: none;
-  border-radius: 18px;
-  background-color: #d94c4c;
-  color: #fff;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: transform 0.25s ease-in-out;
 
-  &:hover { transform: scale(1.08); }
-}
 
 /* 📱 Mobile tweaks */
 @media (max-width: 768px) {
   .about-us { padding: 24px 18px; }
   .avatar { width: 120px; }
+}
+
+.text {
+  font-size: 12px;
 }

@@ -89,19 +89,22 @@ img {
   }
 }
 
-/* Optional button style if you add a CTA */
-.btn-about {
-  width: 220px;
-  border-radius: 20px;
-  padding: 7px;
-  border: none;
-  font-size: 1.2rem;
-  background-color: $red;
-  color: white;
-  transition: transform 0.3s ease-in-out;
-  margin-top: 2rem;
 
-  &:hover {
-    transform: scale(1.1);
-  }
+
+.btn-about {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 16px auto 0;      /* center under the card */
+  padding: 10px 22px;
+  border: 2px solid $blue;
+  border-radius: 18px;
+  
+  background-color: #FAF8F1;
+  color: $blue;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.25s ease-in-out;
+
+  &:hover { transform: scale(1.08); }
 }

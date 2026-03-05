@@ -16,37 +16,34 @@ const bannerPic =  {
 
   return (
     <section className="myo-section">
-    <div  className="myo">
-        <h1> MYO Therapy </h1>
-    </div>
+    
     <div style={bannerPic} className="myo-hero" > 
     <div className="myo-header">
     <h1>Orofacial Myology</h1>
-    <p> With leading specialists</p>
+    
     </div>
     </div>
     <div className="myo-wrapper">
     <div className="myo-content">
         <h1>Orofacial Myofunctional Therapy</h1>
-        <p>We work with your child and take a whole team approach
-collaborating closely with professionals that may be an integral part
-of your or your child’s case (e.g., ENT’s, dentists, orthodontists, etc). Working closely with other professionals helps us provide you and your child with the best treatment plan and outcomes.
-We travel to YOU to provide services. Options for teletherapy are available as well, Please contact us to inquire:  <span className="span-email">love2communicate18@gmail.com</span> </p>
+        <h3 className="sub">Therapy is offered in person. We come to you, we can also offer therapy virtually.</h3>
+        <p>Orofacial Myofunctional Therapy (OMT) is a specialized, evidence-based therapy that focuses on the assessment and treatment of disorders involving the muscles of the face, mouth, and tongue and their impact on breathing, chewing, swallowing, speech, and facial development. OMT focuses on neuromuscular re-education designed to establish proper tongue resting posture, nasal breathing, lip seal, and mature swallowing patterns in order to support optimal oral function, dental development, airway health, and speech clarity. An evaluation includes an observation of your child eating and drinking as well as their posture. It also includes a detailed interview with the caregiver discussing concerns. The evaluation also includes a complete assessment of oral function and structures. This results in a diagnosis.
+A report is then written with an individualized plan of care. Caregivers are involved in every step of this process. All goals and strategies are outlined and reviewed with the family. We can make recommendations and referrals to additional specialists and doctors as needed. Love2communciate believes that collaboration is key to success.
+</p>
     </div>
     <div className="myo-content-two">
-        <h1>Evaluation and treatment process:</h1>
-        <p>First, the family completes the required intakes. Next, an initial evaluation will take
-place. We look at the “whole child” when determining the best treatment plan. If
-treatment is warranted we will use a combination of exercises in treatment and help to
-improve skills in the following areas:</p>
+        <h1 className="title">We treat Orofacial Myofunctional Disorders (OMD) associated with:</h1>
         <ul>
-            <li>Speech/Articulation </li>
-            <li> Tongue and facial rest postures </li>
-            <li>Chewing & Swallowing </li>
-            <li> Nasal breathing </li>
-            <li> Habit elimination </li>
+            <li> <span className="bullet">Abnormal Oral RestPosture</span></li>
+            <li> <span className="bullet">Tethered Oral Tissues:</span> (tongue ties, lip ties) </li>
+            <li> <span className="bullet">Atypical Swallow Pattern</span> (tongue thrust) </li>
+            <li> <span className="bullet">Selective Eating or Nutritional concerns</span></li>
+            <li> <span className="bullet">Noxious Oral Habits:</span> (thumb sucking, pacifier use, nail biting) </li>
+            <li> <span className="bullet">Articulation Issues </span></li>
+            <li> <span className="bullet">Dental Issues:</span> Malocclusion, Gum Disease, Halitosis </li>
+            <li> <span className="bullet">Orthodontic Issues:</span> High and/or Narrow Palate, Orthodontic Relapse </li>
         </ul>
-        <p> We also help prepare your child for pre-op and post-op frenectomy procedures</p>
+        
     </div>
     </div>
     

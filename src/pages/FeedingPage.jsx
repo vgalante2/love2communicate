@@ -15,37 +15,45 @@ function FeedingPage() {
 
   return (
     <section className="feeding-section">
-    <div  className="feeding">
-        <h1> Feeding Therapy </h1>
-    </div>
+    
     <div className="feeding-hero" style={bannerPic} > 
     <div className="feeding-header">
     <h1>Feeding Therapy That Works</h1>
-    <p> With leading specialists</p>
+    
     </div>
     </div>
     <div className="feeding-wrapper">
-    <div className="feeding-content">
-        <h1>In-Home Feeding Therapy</h1>
-        <p>All services are provided in your child’s home or school/daycare
-center. We work closely with all caregivers and will gladly
-collaborate with other professionals.</p>
-    </div>
-   
-    <div className="feeding-content-two">
-        <h1>Our Approach</h1>
-        <p>Feeding therapy takes place in your home or child’s school. We work with a variety of feeding, swallowing, sensory and oral-motor needs.
 
-Initially a feeding and oral-motor evaluation will take place. We look at the whole child when determining the best treatment plan for your child. If treatment is warranted, we customize a plan that is unique to your childs needs. We may use any combinations of the following approaches in treating your child and helping them enjoy new foods:</p>
-        <ul>
-            <li>Feed The Peds </li>
-            <li>Sequential Oral Sensory (S.O.S.) </li>
-            <li>Food Chaining </li>
-            <li>Talk Tools Sensori-motor approach to feeding </li>
-            <li>Beckman Oral Motor </li>
-        </ul>
-    </div>
-    </div>
+  <div className="feeding-content">
+    <h1 className="title"> Feeding Therapy  is offered virtually or in person.</h1>
+
+    <h3>We come to you!</h3>
+
+      <p className="para">
+       Eating is a vital part of a person' s life. It is both life sustaining and social. It is also a learned skill that many of our clients at Love2communicate struggle with.  We treat many clients with sensory motor feeding challenges using a variety of approaches and modalities. Sensory sensitivities may cause the child to gag or vomit and refuse foods resulting in a restrictive diet. Tethered Oral Tissue, also known as tongue tie and lip tie can affect feeding skills. We determine the underlying cause of your child’s feeding difficulties with a comprehensive feeding evaluation. This involves completing a full oral exam as well as observations of the child and how they interact with preferred and nonpreferred foods. Oral motor feeding skills such as chewing and swallowing are assessed as well. Upon completion of testing, a diagnosis is formulated and a report is written. Plan of care is then discussed with the family. 
+      </p>
+
+      
+   
+  </div>
+
+
+  <div className="feeding-content-two">
+    <h1 className="title">Some of the programs and modalities we utilize include:</h1>
+
+
+      <ul>
+        <li><span className="span-bold">Oral Motor Therapy</span> – Techniques aimed at improving strength, coordination, and function of oral structures.</li>
+        <li><span className="span-bold">Myofunctional Therapy </span>– Targeting orofacial muscle patterns to support speech, feeding, and breathing.</li>
+        <li><span className="span-bold">Talk Tools</span> – A sensory-motor approach that incorporates specialized tools to support oral motor development.</li>
+        <li><span className="span-bold">Oral Placement Therapy (OPT)</span> – Uses tactile and proprioceptive input to improve speech clarity and oral function.</li>
+        <li><span className="span-bold">SOS Approach to Feeding</span> – A developmental-based feeding therapy that addresses sensory, motor, and behavioral components of feeding challenges.</li>
+      </ul>
+    
+
+  </div>
+
+</div>
    
        
        

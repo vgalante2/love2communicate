@@ -1,169 +1,176 @@
 @import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
 
-
 .navbar {
-    display: flex;
-    justify-content: space-around; /* This will put the logo and menu at opposite ends */
-    align-items: center;
-    width: 100%;
-    border-bottom: 1px solid rgb(235, 235, 235);
-
-
-
-  }
-  
-  .logo {
-    height: 11rem;
-    width: auto;
-
-    @media(max-width: 1024px) {
-        height: 8rem;
-      
-      }
+  display: flex;
+  flex-direction: column; /* ✅ logo top, menu below */
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(235, 235, 235);
 }
-  
-  .logo-section {
-    display: flex;
 
+/* -----------------------
+   TOP ROW: LOGO CENTER
+------------------------ */
+.navbar-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 0;
+}
 
+.logo {
+  height: 11rem;
+  width: auto;
+
+  @media (max-width: 1024px) {
+    height: 8rem;
   }
-  
-  .menu ul {
-    display: flex; /* This will make the list items horizontal */
-    list-style-type: none; /* This will remove bullet points */
-    padding: 0; /* This will remove padding */
-    margin: 0; /* This will remove margin */
-    
-  }
-  
-  .menu a {
-    margin-right: 20px; /* This adds space between the menu items */
-    font-family: 'Preahvihear', sans-serif;
-    
-    @media(max-width: 1024px) {
-        margin: 0;
-        justify-content: space-between;
-        
-    }
-  }
-  
-  /* You can also add styles to make the list items look more like links */
-  .menu a {
-    cursor: pointer;
-    color: $blue; /* Example link color */
-    text-decoration: none;
-    font-size: 1.3rem;
+}
 
-    @media(max-width: 767px) {
-        color: white;
-    
-    }
+/* -----------------------
+   BOTTOM ROW: MENU CENTER
+------------------------ */
+.navbar-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative; /* ✅ anchor hamburger + decor */
+  padding-bottom: 0.75rem;
+}
 
-  }
-  
-  .menu a:hover {
-    text-decoration: underline;
-    color: $red;
-  }
-  
+/* The actual nav container (this is what gets .responsive_nav toggled) */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ✅ center links */
+  gap: 2rem;               /* ✅ replaces margin-right spacing */
+}
 
-  nav {
-    display: flex;
-    align-items: center;
-    height: 100px;
+/* Links */
+.nav-link,
+.home-btn {
+  font-family: 'Preahvihear', sans-serif;
+  cursor: pointer;
+  color: $blue;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
 
-    img {
-        position: relative;
-        left: 330px;
-        bottom: 80px;
+.nav-link:hover,
+.home-btn:hover {
+  text-decoration: underline;
+  color: $red;
+}
 
-        @media(max-width: 1300px) {
-            display: none;
-          
-          }
-    }
-  }
+/* Decorative image inside nav */
+.nav-decor {
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
 
-
-
-  @media(min-width: 767px) {
-    .hamburger-menu {
-        visibility: hidden;
-    }
-    .nav-close-btn {
-    visibility: hidden;
-    }
-  }
-
-  @media only screen and (max-width: 767px) {
-    nav.responsive_nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      z-index: 999;
-      background-color: $blue;
-      gap: 1.5rem;
-      transition: 1s;
-      transform: translateY(0);
-    }
-
-    .hamburger-menu {
-        color: $blue;
-        border: none;
-        background-color: white;
-        border-radius: 20px;
-    }
-
-    nav{
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        z-index: 1;
-        background-color: $blue;
-        gap: 1.5rem;
-        transition: 1s;
-        transform: translateY(-100vh);
-
-        
-    }
-
-    .responsive_nav {
-        transform: translateY(0);
-
-    }
-
-    .nav-close-btn {
-        border: none;
-        background-color: $blue;
-        color: white;
-
-       
-    }
-  }
-
-  .home-btn {
+  @media (max-width: 1300px) {
     display: none;
+  }
 }
 
-.responsive_nav .home-btn {
-    display: block;
+/* -----------------------
+   HAMBURGER / CLOSE BTNS
+------------------------ */
+
+/* Desktop: hide hamburger and close */
+@media (min-width: 767px) {
+  .hamburger-menu {
+    visibility: hidden;
+  }
+  .nav-close-btn {
+    visibility: hidden;
+  }
 }
-  
 
- 
+/* Place hamburger on the right (when visible on mobile) */
+.hamburger-menu {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
+/* -----------------------
+   MOBILE FULLSCREEN NAV
+------------------------ */
+@media only screen and (max-width: 767px) {
+  /* Make links white on mobile overlay */
+  .nav-link,
+  .home-btn {
+    color: white;
+  }
+
+  /* Hamburger button styling */
+  .hamburger-menu {
+    color: #FAF8F1;
+    border: none;
+    background-color: $blue;
+    border-radius: 20px;
+    padding: 0.4rem 0.6rem;
+  }
+
+  /* Base state: nav hidden above screen */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $blue;
+    gap: 1.5rem;
+
+    transition: 1s;
+    transform: translateY(-100vh);
+    z-index: 999; /* keep above everything */
+  }
+
+  /* When toggled ON */
+  .nav-menu.responsive_nav {
+    transform: translateY(0);
+  }
+
+  /* Close button inside overlay */
+  .nav-close-btn {
+    border: none;
+    background-color: $blue;
+    color: white;
+  }
+
+  /* Hide the decor on mobile overlay */
+  .nav-decor {
+    display: none;
+  }
+}
+
+/* -----------------------
+   OPTIONAL: "Home" only in mobile overlay
+   (You had this before)
+------------------------ */
+.home-btn {
+  display: none;
+}
+
+.nav-menu.responsive_nav .home-btn {
+  display: block;
+}
+
+/* -----------------------
+   DROPDOWN (kept from your CSS)
+   NOTE: Only works if you actually render .menu-item + .dropdown in JSX
+------------------------ */
 .menu-item {
   position: relative;
 }
@@ -191,6 +198,5 @@
 
 .dropdown a:hover {
   background-color: #ddd;
- text-decoration: none;
-  
+  text-decoration: none;
 }
