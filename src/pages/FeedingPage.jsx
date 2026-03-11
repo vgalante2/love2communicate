@@ -25,9 +25,9 @@ function FeedingPage() {
     <div className="feeding-wrapper">
 
   <div className="feeding-content">
-    <h1 className="title"> Feeding Therapy  is offered virtually or in person.</h1>
+    <h1 > Feeding Therapy</h1>
 
-    <h3>We come to you!</h3>
+    <h3 className="sub">Therapy is offered in person. We come to you, we can also offer therapy virtually.</h3>
 
       <p className="para">
        Eating is a vital part of a person' s life. It is both life sustaining and social. It is also a learned skill that many of our clients at Love2communicate struggle with.  We treat many clients with sensory motor feeding challenges using a variety of approaches and modalities. Sensory sensitivities may cause the child to gag or vomit and refuse foods resulting in a restrictive diet. Tethered Oral Tissue, also known as tongue tie and lip tie can affect feeding skills. We determine the underlying cause of your child’s feeding difficulties with a comprehensive feeding evaluation. This involves completing a full oral exam as well as observations of the child and how they interact with preferred and nonpreferred foods. Oral motor feeding skills such as chewing and swallowing are assessed as well. Upon completion of testing, a diagnosis is formulated and a report is written. Plan of care is then discussed with the family. 

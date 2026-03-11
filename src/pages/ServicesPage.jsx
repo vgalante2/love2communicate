@@ -42,7 +42,7 @@ function ServicesPage() {
               backgroundSize: 'cover'
               
             }}>
-             MYO Therapy
+             Myofunctional Therapy
             </div>
             </Link>
             

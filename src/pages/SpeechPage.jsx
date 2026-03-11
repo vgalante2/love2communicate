@@ -26,8 +26,8 @@ function SpeechPage() {
     </div>
     <div className="speech-wrapper">
     <div className="speech-content">
-        <h1>Evaluation</h1>
-        <h3 className="sub">Speech Therapy is offered in person. We come to you. We also offer speech therapy virtually.</h3>
+        <h1 >Speech Therapy</h1>
+        <h3 className="sub">Therapy is offered in person. We come to you, we can also offer therapy virtually.</h3>
         <p>First, formal and informal testing is used to evaluate all speech and language concerns. The evaluation also includes a complete assessment of oral function and structures. This results in a diagnosis.
 A report is then written with an individualized plan of care. Caregivers are involved in every step of this process. All goals and strategies are outlined and reviewed with the family. We can make recommendations and referrals to additional specialists and doctors as needed. Love2communciate believes that collaboration is key to success.
 </p>
