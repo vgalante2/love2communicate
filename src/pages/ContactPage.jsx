@@ -12,7 +12,7 @@ function ContactPage() {
     <p> We will get back to you asap!  </p>
     <div className="contactpage-box">
         <p className="contact-page-number"> <LocalPhoneIcon className="phone-icon" /> 732-742-1884</p>
-        <p className="contact-page-email" > <EmailIcon className="email-icon" /> love2communicate18@gmail.com</p>
+        <p className="contact-page-email" > <EmailIcon className="email-icon" /> Galina@love2communciate.com</p>
     </div>
     </div>
     </div>
