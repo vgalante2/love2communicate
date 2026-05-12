@@ -11,7 +11,7 @@ function Footer() {
     <p> We will get back to you asap!  </p>
     <div className="contact-box">
         <p className="contact-info"> <LocalPhoneIcon className="phone" /> 732-742-1884</p>
-        <p className="contact-info" > <EmailIcon className="email" /> love2communicate18@gmail.com</p>
+        <p className="contact-info" > <EmailIcon className="email" /> Galina@love2communciate.com</p>
     </div>
     </div>
     </div>
